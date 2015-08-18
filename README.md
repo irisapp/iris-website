@@ -1,4 +1,6 @@
-heyimcat.com
-============
+# Website
+The landing page for Iris
 
-Catherine's website
+---
+For any questions, feel free to email hello@getiris.co<br>
+©2015. Iris App. All Rights Reserved.
