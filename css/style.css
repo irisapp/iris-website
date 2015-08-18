@@ -5,6 +5,24 @@
     -moz-font-feature-settings: "liga" on;
 }
 
+@font-face {
+    font-family: AvenirLTStd-Book;
+    src: url(Avenir_Book.ttf);
+    font-weight: 300;
+}
+
+@font-face {
+    font-family: AvenirLTStd-Medium;
+    src: url(Avenir_Medium.ttf);
+    font-weight: 500;
+}
+
+@font-face {
+    font-family: AvenirLT-Black;
+    src: url(Avenir_Blk.ttf);
+    font-weight: 700;
+}
+
 .entypo {
 	font-family: entypo;
 	font-size: 1.4em;
