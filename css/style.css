@@ -77,8 +77,441 @@ margin-right: 5px;
 	-o-background-size: cover;
 	background-position: top left;
 	background-size: cover;
+	overflow-x: hidden;
 }
 
+.container {
+	margin: 0 auto;
+	width: 960px;
+	max-width: 100%;
+	height: 780px;
+	padding-top: 5em;
+	position: relative;
+}
+
+.intro {
+	display: inline-block;
+	float: left;
+	margin-top: 1em;
+}
+
+.container h1 {
+	font-size: 2.1em; /* 48 / 16 */
+	line-height: 1.3em; /* 48 / 48 */
+	font-weight: 700;
+	margin-left: 20px;
+}
+
+.container h3 {
+	color: #FFFFFF;
+	font-size: 1.2em; /* 24 / 16 */
+	font-weight: 500;
+	line-height: 1.6em; /* 24 / 24 */
+	margin: 0 auto;
+	padding-top: 20px;
+	padding-left: 20px;
+	opacity: .90;
+}
+
+.container h4 {
+	color: #DBDBDF;
+    font-size: .9em; /* 24 / 16 */
+    font-weight: 500;
+    line-height: 1.4em; /* 24 / 24 */
+    margin-bottom: .3em; /* 24 / 24 */
+    margin-top: 3em;
+    padding-left: 30px;
+}
+
+/*GPS points Begin*/
+.ring-container {
+    position: relative;
+}
+
+.first{
+  position: absolute;
+  top: 40px;
+  left: 5px;
+  -webkit-animation: fadeOne 28s ease-out;
+    -webkit-animation-iteration-count: infinite; 
+    opacity: 1;
+}
+
+.second{
+  position: absolute;
+  bottom: 120px;
+  left: 530px;
+  -webkit-animation: fadeTwo 28s ease-out;
+    -webkit-animation-iteration-count: infinite; 
+    opacity: 0;
+}
+
+.circle {
+    width: 9px;
+    height: 9px;
+    background-color: #72C7D6;
+    border-radius: 100%;
+    position: absolute;
+    top: 23px;
+    left: 23px;
+    z-index: 2;
+}
+
+.ringring {
+    border: 1px solid #72C7D6;
+    background: rgba(114, 199, 214, 0.3);
+    -webkit-border-radius: 30px;
+    height: 25px;
+    width: 25px;
+    position: absolute;
+    left: 14px;
+    top: 14px;
+    -webkit-animation: pulsate 1.5s ease-out;
+    -webkit-animation-iteration-count: infinite; 
+    opacity: 0.0
+}
+
+@-webkit-keyframes pulsate {
+    0% {-webkit-transform: scale(0.1, 0.1); opacity: 0.0;}
+    50% {opacity: 1.0;}
+    100% {-webkit-transform: scale(2.2, 2.2); opacity: 0.0;}
+}
+
+@-webkit-keyframes fadeOne {
+    0% {opacity: 1;}
+    20% {opacity: 1}
+    40% {opacity: 1;}
+    50% {opacity: 0;}
+    60% {opacity: 0;}
+    80% {opacity: 0;}
+    90% {opacity: 0;}
+    100% {opacity: 1;}
+}
+@-webkit-keyframes fadeTwo {
+    0% {opacity: 0;}
+    20% {opacity: 0}
+    40% {opacity: 0;}
+    50% {opacity: 0;}
+    60% {opacity: 1;}
+    80% {opacity: 1;}
+    90% {opacity: 0;}
+    100% {opacity: 0;}
+}
+/*GPS points End*/
+
+.device {
+	display: none;
+}
+
+/*Begin Mailchimp Signup Form*/
+
+#mc_embed_signup {
+	border: none;
+}
+
+/*Do not remove the .clear class. This keeps it inline*/
+.mc-field-group {
+	display: inline-block;
+}
+
+#mce-EMAIL {
+	border: none;
+	font-family: 'Avenir';
+	font-size: .9em;
+	font-weight: 500;
+	letter-spacing: .03em;
+	color: #a8a8a8;
+	background-color: #fff;
+	padding: .8em 7em .8em 1em;
+	border-radius: 3px;
+	-webkit-border-radius: 3px;
+	-moz-border-radius: 3px;
+	display: inline-block;
+	margin-top: 18px;
+	margin-left: 34px;
+}
+
+.button {
+	border: none;
+	font-family: 'Avenir';
+	font-size: .9em;
+	font-weight: 500;
+	letter-spacing: .03em;
+	color: #fff;
+	background-color: #6CD286;
+	padding: .7em 2em;
+	border-radius: 3px;
+	-webkit-border-radius: 3px;
+	-moz-border-radius: 3px;
+	display: inline-block;
+	width: 82%;
+	margin-left: 34px;
+	margin-top: 18px;
+}
+
+::-webkit-input-placeholder { /* WebKit browsers */
+	   color:    #64BF58;
+}
+:-moz-placeholder { /* Mozilla Firefox 4 to 18 */
+	   color:    #64BF58;
+	}
+	::-moz-placeholder { /* Mozilla Firefox 19+ */
+	   color:    #64BF58;
+	}
+	:-ms-input-placeholder { /* Internet Explorer 10+ */
+	   color:    64BF58;
+	}
+	
+.button:hover {
+	background-color: #5FC078;
+}
+
+/*End Mailchimp Signup Form CSS*/
+
+#footer a {
+	color: #1C4B9E;
+	text-decoration: none;
+}
+
+#footer a:hover {
+	color: #312A37;
+	text-decoration: none;
+}
+
+
+#footer p {
+	font-size: .8em;
+	text-align: center;
+	color: #838383;
+	padding-top: 3px;
+	line-height: 1.8em;
+	font-weight: 500;
+	padding-bottom: 0;
+}
+
+
+/* Media Queries */
+
+/* Tablet */
+@media (min-width: 767px) {
+	
+.intro {
+	width: 70%;
+	display: inline-block;
+	float: left;
+	margin-top: 1em;
+}
+
+.container {
+	margin: 0 auto;
+	width: 960px;
+	max-width: 100%;
+	height: 624px;
+	padding-top: 5em;
+	position: relative;
+}
+
+.container h1 {
+	font-size: 2.2em;
+	line-height: 1.4em;
+	margin-top: .8em;
+	font-weight: 700;
+	padding-right: 1em;
+}
+
+.container h3 {
+	color: #FFFFFF;
+	font-size: 1.2em; /* 24 / 16 */
+	font-weight: 500;
+	line-height: 1.6em; /* 24 / 24 */
+	margin: 0 auto;
+	padding: .7em 4em 0 0;
+	opacity: .90;
+}
+
+.container h4 {
+	color: #DBDBDF;
+    font-size: .9em; /* 24 / 16 */
+    font-weight: 500;
+    line-height: 1.4em; /* 24 / 24 */
+    margin-bottom: .6em; /* 24 / 24 */
+    margin-top: 3em;
+    margin-left: ;
+}
+
+/*GPS points Begin*/
+.ring-container {
+    position: relative;
+}
+
+.first{
+  position: absolute;
+  top: 40px;
+  left: 5px;
+  -webkit-animation: fadeOne 28s ease-out;
+    -webkit-animation-iteration-count: infinite; 
+    opacity: 1;
+}
+
+.second{
+  position: absolute;
+  bottom: 120px;
+  left: 530px;
+  -webkit-animation: fadeTwo 28s ease-out;
+    -webkit-animation-iteration-count: infinite; 
+    opacity: 0;
+}
+
+.circle {
+    width: 9px;
+    height: 9px;
+    background-color: #72C7D6;
+    border-radius: 100%;
+    position: absolute;
+    top: 23px;
+    left: 23px;
+    z-index: 2;
+}
+
+.ringring {
+    border: 1px solid #72C7D6;
+    background: rgba(114, 199, 214, 0.3);
+    -webkit-border-radius: 30px;
+    height: 25px;
+    width: 25px;
+    position: absolute;
+    left: 14px;
+    top: 14px;
+    -webkit-animation: pulsate 1.5s ease-out;
+    -webkit-animation-iteration-count: infinite; 
+    opacity: 0.0
+}
+
+@-webkit-keyframes pulsate {
+    0% {-webkit-transform: scale(0.1, 0.1); opacity: 0.0;}
+    50% {opacity: 1.0;}
+    100% {-webkit-transform: scale(2.2, 2.2); opacity: 0.0;}
+}
+
+@-webkit-keyframes fadeOne {
+    0% {opacity: 1;}
+    20% {opacity: 1}
+    40% {opacity: 1;}
+    50% {opacity: 0;}
+    60% {opacity: 0;}
+    80% {opacity: 0;}
+    90% {opacity: 0;}
+    100% {opacity: 1;}
+}
+@-webkit-keyframes fadeTwo {
+    0% {opacity: 0;}
+    20% {opacity: 0}
+    40% {opacity: 0;}
+    50% {opacity: 0;}
+    60% {opacity: 1;}
+    80% {opacity: 1;}
+    90% {opacity: 0;}
+    100% {opacity: 0;}
+}
+/*GPS points End*/
+
+.device {
+	width: 30%;
+	display: inline-block;
+}
+
+			
+/*Begin Mailchimp Signup Form*/
+
+#mc_embed_signup {
+	border: none;
+}
+
+/*Do not remove the .clear class. This keeps it inline*/
+.mc-field-group {
+	display: inline-block;
+}
+
+#mce-EMAIL {
+	border: none;
+	font-family: 'Avenir';
+	font-size: .9em;
+	font-weight: 500;
+	letter-spacing: .03em;
+	color: #a8a8a8;
+	background-color: #fff;
+	padding: .7em 8em .7em 1em;
+	border-radius: 3px;
+	-webkit-border-radius: 3px;
+	-moz-border-radius: 3px;
+	display: inline-block;
+}
+
+/*Do not remove the .clear class. This keeps it inline*/
+.clear {
+	display: inline-block;
+}
+
+.button {
+	border: none;
+	font-family: 'Avenir';
+	font-size: .9em;
+	font-weight: 500;
+	letter-spacing: .03em;
+	color: #fff;
+	background-color: #6CD286;
+	padding: .7em 2em;
+	border-radius: 3px;
+	-webkit-border-radius: 3px;
+	-moz-border-radius: 3px;
+	display: inline-block;
+	margin-left: .2em;
+}
+
+::-webkit-input-placeholder { /* WebKit browsers */
+	   color:    #64BF58;
+}
+:-moz-placeholder { /* Mozilla Firefox 4 to 18 */
+	   color:    #64BF58;
+	}
+	::-moz-placeholder { /* Mozilla Firefox 19+ */
+	   color:    #64BF58;
+	}
+	:-ms-input-placeholder { /* Internet Explorer 10+ */
+	   color:    64BF58;
+	}
+	
+.button:hover {
+	background-color: #64BF58;
+}
+
+/*End Mailchimp Signup Form CSS*/
+
+#footer a {
+	color: #1C4B9E;
+	text-decoration: none;
+}
+
+#footer a:hover {
+	color: #312A37;
+	text-decoration: none;
+}
+
+
+#footer p {
+	font-size: .8em;
+	text-align: center;
+	color: #838383;
+	padding-top: 3px;
+	line-height: 1.8em;
+	font-weight: 500;
+}
+
+}
+
+/* Desktop */
+@media (min-width: 1280px) {  
+  
 .intro {
 	width: 80%;
 	display: inline-block;
@@ -96,6 +529,8 @@ margin-right: 5px;
 }
 
 .container h1 {
+	font-size: 2.4em; /* 48 / 16 */
+	line-height: 1.4em; /* 48 / 48 */
 	margin-top: .8em;
 	font-weight: 700;
 	padding-right: 1em;
@@ -124,6 +559,7 @@ margin-right: 5px;
 .ring-container {
     position: relative;
 }
+
 .first{
   position: absolute;
   top: 40px;
@@ -132,6 +568,7 @@ margin-right: 5px;
     -webkit-animation-iteration-count: infinite; 
     opacity: 1;
 }
+
 .second{
   position: absolute;
   bottom: 120px;
@@ -140,6 +577,7 @@ margin-right: 5px;
     -webkit-animation-iteration-count: infinite; 
     opacity: 0;
 }
+
 .circle {
     width: 9px;
     height: 9px;
@@ -150,6 +588,7 @@ margin-right: 5px;
     left: 23px;
     z-index: 2;
 }
+
 .ringring {
     border: 1px solid #72C7D6;
     background: rgba(114, 199, 214, 0.3);
@@ -235,7 +674,7 @@ margin-right: 5px;
 	font-weight: 500;
 	letter-spacing: .03em;
 	color: #fff;
-	background-color: #6ECE62;
+	background-color: #6CD286;
 	padding: .7em 2em;
 	border-radius: 3px;
 	-webkit-border-radius: 3px;
@@ -258,7 +697,7 @@ margin-right: 5px;
 	}
 	
 .button:hover {
-	background-color: #64BF58;
+	background-color: #5FC078;
 }
 
 /*End Mailchimp Signup Form CSS*/
@@ -283,280 +722,4 @@ margin-right: 5px;
 	font-weight: 500;
 }
 
-
-/* Media Queries */
-
-/* Tablet */
-@media (max-width: 1280px) and (min-width: 641px) {
-	
-	.hero {
-		width: 100%;
-		height: 660px;
-	}
-	
-	.biglogo {
-		text-align: center;
-		width: 80%;
-		display: inline-block;
-		text-color: #fff;
-	}
-	
-	.hero h1 {
-		text-align: center;
-		font-size: 2.2em;
-		line-height: 1.3em;
-		margin-top: .8em;
-	}
-	
-	.hero h3 {
-		color: #DBDBDF;
-		font-size: 1.1em; /* 24 / 16 */
-		line-height: 1.6em; /* 24 / 24 */
-		margin-bottom: 0.3em; /* 24 / 24 */
-		font-weight: 400;
-		margin: .9em 0 2em 0;
-		padding: 0 1em;
-	}
-	
-	.hero h4 {
-	    font-size: .8em; /* 24 / 16 */
-	    line-height: 1.4em; /* 24 / 24 */
-	    margin-bottom: .6em; /* 24 / 24 */
-	    margin-top: 2em;
-	    font-weight: 600;
-	    color: #6E6973;
-	}
-	
-	.intro {
-		padding-left: 7%;
-		padding-right: 7%;
-		margin: 0;
-	}
-	
-		
-	/*Begin Mailchimp Signup Form*/
-	
-	#mc_embed_signup {
-		border: none;
-	}
-	
-	/*Do not remove the .clear class. This keeps it inline*/
-	.mc-field-group {
-		display: inline-block;
-	}
-	
-	#mce-EMAIL {
-		border: none;
-		font-family: 'Open Sans';
-		font-size: .9em;
-		font-weight: 400;
-		letter-spacing: .03em;
-		color: #a8a8a8;
-		background-color: #fff;
-		padding: .7em 4em .7em 1em;
-		border-radius: 3px;
-		-webkit-border-radius: 3px;
-		-moz-border-radius: 3px;
-		display: inline-block;
-	}
-	
-	/*Do not remove the .clear class. This keeps it inline*/
-	.clear {
-		display: inline-block;
-	}
-	
-	.button {
-		border: none;
-		font-family: 'Open Sans';
-		font-size: .9em;
-		font-weight: 500;
-		letter-spacing: .03em;
-		color: #fff;
-		background-color: #60CFE5;
-		padding: .7em 2em;
-		border-radius: 3px;
-		-webkit-border-radius: 3px;
-		-moz-border-radius: 3px;
-		display: inline-block;
-		margin-left: .2em;
-	}
-	
-	::-webkit-input-placeholder { /* WebKit browsers */
-		   color:    #EBF2F6;
-	}
-	:-moz-placeholder { /* Mozilla Firefox 4 to 18 */
-		   color:    #EBF2F6;
-		}
-		::-moz-placeholder { /* Mozilla Firefox 19+ */
-		   color:    #EBF2F6;
-		}
-		:-ms-input-placeholder { /* Internet Explorer 10+ */
-		   color:    #EBF2F6;
-		}
-	
-	/*End Mailchimp Signup Form CSS*/
-
-}
-
-
-/* Mobile */
-@media (max-width: 640px) and (min-width: 0px) {  
-  
-.social {
-width: 100%;
-text-align: center;
-margin-top: 10px;
-padding-right: 0px;
-display: block;
-}
-
-.fb {
-width: 130px;
-padding-top: 0;
-margin-left: 30px;
-}
-
-.twitter-share-button {
-padding-top: 5px;
-margin-right: 0px;
-}
-
-.hero {
-	height: 960px;
-	background-repeat: repeat;
-	-webkit-background-size: 250%;
-	-moz-background-size: 250%;
-	-o-background-size: 250%;
-	background-size: 250%;
-}
-
-.biglogo {
-	text-align: center;
-	width: 100%;
-	display: inline-block;
-	text-color: #fff;
-}
-
-.hero h1 {
-	margin-top: .8em;
-	text-align: center;
-	font-size: 2.1em;
-	line-height: 1.4em;
-}
-
-.hero h3 {
-	color: #DBDBDF;
-	font-size: 1.1em; /* 24 / 16 */
-	font-weight: 400;
-	line-height: 1.6em; /* 24 / 24 */
-	text-align: left;
-	margin: .9em 0 2em 0;
-	padding: 0 .5em;
-}
-
-.hero h4 {
-    font-size: .8em; /* 24 / 16 */
-    line-height: 1.4em; /* 24 / 24 */
-    margin-bottom: .6em; /* 24 / 24 */
-    margin-top: 2.2em;
-    font-weight: 600;
-    color: #6E6973;
-}
-
-.intro {
-	padding-left: 2%;
-	padding-right: 2%;
-	margin: 0;
-}
-
-#survey h2 {
-	line-height: 1.5em;
-	
-}
-
-#survey p {
-	font-size: 1.1em !important;
-	line-height: 1.6em !important;
-}
-
-/*Begin Mailchimp Signup Form*/
-
-#mc_embed_signup {
-	border: none;
-}
-
-/*Do not remove the .clear class. This keeps it inline*/
-.mc-field-group {
-	display: block; max-width: 100%;
-}
-	
-#mce-EMAIL {
-	border: none;
-	font-family: 'Open Sans';
-	font-size: .9em;
-	font-weight: 400;
-	letter-spacing: .03em;
-	color: #a8a8a8;
-	background-color: #fff;
-	border-radius: 3px;
-	-webkit-border-radius: 3px;
-	-moz-border-radius: 3px;
-	padding: .7em 0 .7em 1em;
-	width: 94%;
-	margin: 0;
-}
-
-/*Do not remove the .clear class. This keeps it inline*/
-.clear {
-	display: block;
-	width: 100%;
-}
-
-.button {
-	border: none;
-	font-family: 'Open Sans';
-	font-size: .9em;
-	font-weight: 500;
-	letter-spacing: .03em;
-	color: #fff;
-	background-color: #60CFE5;
-	padding: .7em 1.4em;
-	border-radius: 3px;
-	-webkit-border-radius: 3px;
-	-moz-border-radius: 3px;
-	display: block;
-	width: 100%;
-	margin: .6em 0 0 0;
-}
-
-	::-webkit-input-placeholder { /* WebKit browsers */
-		   color:    #EBF2F6;
-	}
-	:-moz-placeholder { /* Mozilla Firefox 4 to 18 */
-		   color:    #EBF2F6;
-	}
-	::-moz-placeholder { /* Mozilla Firefox 19+ */
-		   color:    #EBF2F6;
-	}
-	:-ms-input-placeholder { /* Internet Explorer 10+ */
-		   color:    #EBF2F6;
-	}
-
-/*End Mailchimp Signup Form CSS*/
-
-}
-
-.surveybutton a{
-	background-color: #B29BC4;
-	-webkit-border-radius: 100px;
-	-moz-border-radius: 100px;
-	border-radius: 100px;
-	text-indent: 0;
-	display: inline-block;
-	color: #ffffff;
-	text-decoration: none;
-	text-align: center;
-	padding: .8em 3em .8em 3em;
-}
-  
 }
