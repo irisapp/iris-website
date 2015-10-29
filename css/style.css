@@ -462,6 +462,7 @@ margin-right: 5px;
 	border-radius: 3px;
 	-webkit-border-radius: 3px;
 	-moz-border-radius: 3px;
+	width: 100%;
 	display: inline-block;
 	margin-left: .2em;
 }
@@ -683,7 +684,6 @@ margin-right: 14px;
 	color: #fff;
 	background-color: #6CD286;
 	padding: .7em 2em;
-	width: 100%;
 	border-radius: 3px;
 	-webkit-border-radius: 3px;
 	-moz-border-radius: 3px;
