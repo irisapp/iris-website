@@ -234,7 +234,7 @@ margin-right: 5px;
 	border: none;
 	font-family: 'Avenir';
 	font-size: .9em;
-	font-weight: 500;
+	font-weight: 700;
 	letter-spacing: .03em;
 	color: #fff;
 	background-color: #6CD286;
@@ -258,7 +258,7 @@ margin-right: 5px;
 	   color:    #64BF58;
 	}
 	:-ms-input-placeholder { /* Internet Explorer 10+ */
-	   color:    64BF58;
+	   color:   #64BF58;
 	}
 	
 .button:hover {
@@ -454,7 +454,7 @@ margin-right: 5px;
 	border: none;
 	font-family: 'Avenir';
 	font-size: .9em;
-	font-weight: 500;
+	font-weight: 700;
 	letter-spacing: .03em;
 	color: #fff;
 	background-color: #6CD286;
@@ -476,7 +476,7 @@ margin-right: 5px;
 	   color:    #64BF58;
 	}
 	:-ms-input-placeholder { /* Internet Explorer 10+ */
-	   color:    64BF58;
+	   color:   #64BF58;
 	}
 	
 .button:hover {
@@ -515,6 +515,10 @@ margin-right: 5px;
 	display: inline-block;
 	float: left;
 	margin-top: 3em;
+}
+
+.twitter-share-button {
+margin-right: 14px;
 }
 
 .container {
@@ -634,6 +638,7 @@ margin-right: 5px;
 
 .device {
 	width: 20%;
+	height: 584px;
 	display: inline-block;
 }
 
@@ -673,7 +678,7 @@ margin-right: 5px;
 	border: none;
 	font-family: 'Avenir';
 	font-size: .9em;
-	font-weight: 500;
+	font-weight: 700;
 	letter-spacing: .03em;
 	color: #fff;
 	background-color: #6CD286;
@@ -696,7 +701,7 @@ margin-right: 5px;
 	   color:    #64BF58;
 	}
 	:-ms-input-placeholder { /* Internet Explorer 10+ */
-	   color:    64BF58;
+	   color:   #64BF58;
 	}
 	
 .button:hover {
@@ -723,6 +728,7 @@ margin-right: 5px;
 	padding-top: 3px;
 	line-height: 1.8em;
 	font-weight: 500;
+	margin-bottom: 0;
 }
 
 }

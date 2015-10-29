@@ -22,7 +22,7 @@ src: url('avenir.ttf')
 /* Toast Framework - type.css */
 body {
 	font: 400 1.1em/1.5 Avenir, 'Helvetica Neue', Helvetica, Arial, sans-serif;
-	background: #f5f5f5 url('../images/altbg.jpg') no-repeat left top;
+    background: #FFFFFF;
 	-webkit-font-smoothing: antialiased; 
 }
 
