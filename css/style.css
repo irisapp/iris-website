@@ -515,7 +515,7 @@ margin-right: 5px;
 	width: 90%;
 	display: inline-block;
 	float: left;
-	margin-top: 15em;
+	margin-top: 14.5em;
   padding-left: 3em;
 }
 
@@ -540,6 +540,7 @@ margin-right: 14px;
 	margin-top: .8em;
 	font-weight: 300;
 	padding-right: 1em;
+  padding-left: 1px;
 }
 
 .container h2 {
@@ -548,7 +549,7 @@ margin-right: 14px;
 	font-weight: 300;
   line-height: 1.2em; /* 24 / 24 */
   margin: 0 auto;
-  padding: 0 2em 0 0;
+  padding: 0 2em 0 1px;
 }
 
 .container h4 {
@@ -575,20 +576,28 @@ margin-right: 14px;
 }
 
 #mce-EMAIL {
-	border: none;
-  outline: none;
 	font-family: 'Avenir';
 	font-size: .9em;
 	font-weight: 500;
 	letter-spacing: .03em;
 	color: #a8a8a8;
-	background-color: #fff
-	padding: .7em 8em .7em 2em;
+	background-color: #fff;
+	padding: .7em 8em .7em 1.5em;
 	border-radius: 50px;
 	-webkit-border-radius: 50px;
 	-moz-border-radius: 50px;
 	display: inline-block;
 	margin-left: 0;
+  box-sizing: border-box;
+  border: none;
+  box-shadow: 0 0 0 10px transparent;
+  transition: all 0.5s ease;
+}
+
+#mce-EMAIL:focus {
+  box-shadow: 0 0 0 2px #1C4B9E;
+  outline: none;
+  transition: all 0.5s ease;
 }
 
 /*Do not remove the .clear class. This keeps it inline*/
