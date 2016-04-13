@@ -42,14 +42,16 @@
 	position: fixed;
 }
 
-/*Start Social Area*/
 .logo {
 text-align: center;
 display: inline-block;
 width: 100px;
-padding-top: 10px;
 float: left;
+padding-left: 174px;
+padding-top: 20px;
 }
+
+/*Start Social Area*/
 
 .social {
 width: 100%;
@@ -122,86 +124,6 @@ margin-right: 5px;
     padding-left: 30px;
 }
 
-/*GPS points Begin*/
-.ring-container {
-    position: relative;
-}
-
-.first{
-  position: absolute;
-  top: 40px;
-  left: 5px;
-  -webkit-animation: fadeOne 28s ease-out;
-    -webkit-animation-iteration-count: infinite;
-    opacity: 1;
-}
-
-.second{
-  position: absolute;
-  bottom: 120px;
-  left: 530px;
-  -webkit-animation: fadeTwo 28s ease-out;
-    -webkit-animation-iteration-count: infinite;
-    opacity: 0;
-}
-
-.circle {
-    width: 9px;
-    height: 9px;
-    background-color: #72C7D6;
-    border-radius: 100%;
-    position: absolute;
-    top: 23px;
-    left: 23px;
-    z-index: 2;
-}
-
-.ringring {
-    border: 1px solid #72C7D6;
-    background: rgba(114, 199, 214, 0.3);
-    -webkit-border-radius: 30px;
-    height: 25px;
-    width: 25px;
-    position: absolute;
-    left: 14px;
-    top: 14px;
-    -webkit-animation: pulsate 1.5s ease-out;
-    -webkit-animation-iteration-count: infinite;
-    opacity: 0.0
-}
-
-@-webkit-keyframes pulsate {
-    0% {-webkit-transform: scale(0.1, 0.1); opacity: 0.0;}
-    50% {opacity: 1.0;}
-    100% {-webkit-transform: scale(2.2, 2.2); opacity: 0.0;}
-}
-
-@-webkit-keyframes fadeOne {
-    0% {opacity: 1;}
-    20% {opacity: 1}
-    40% {opacity: 1;}
-    50% {opacity: 0;}
-    60% {opacity: 0;}
-    80% {opacity: 0;}
-    90% {opacity: 0;}
-    100% {opacity: 1;}
-}
-@-webkit-keyframes fadeTwo {
-    0% {opacity: 0;}
-    20% {opacity: 0}
-    40% {opacity: 0;}
-    50% {opacity: 0;}
-    60% {opacity: 1;}
-    80% {opacity: 1;}
-    90% {opacity: 0;}
-    100% {opacity: 0;}
-}
-/*GPS points End*/
-
-.device {
-	display: none;
-}
-
 /*Begin Mailchimp Signup Form*/
 
 #mc_embed_signup {
@@ -268,26 +190,41 @@ margin-right: 5px;
 /*End Mailchimp Signup Form CSS*/
 
 #footer a {
-	color: #1C4B9E;
+	color: #BEC3CC;
+  font-size: 10px;
+  font-weight: 600;
+  letter-spacing: .7px;
+  padding-right: 5px;
+  padding-left: 5px;
 	text-decoration: none;
 }
 
 #footer a:hover {
-	color: #312A37;
+	color: #1C4B9E;
 	text-decoration: none;
+  transition: ease-in-out;
 }
 
 
 #footer p {
-	font-size: .8em;
+	font-size: 12px;
 	text-align: center;
-	color: #838383;
-	padding-top: 3px;
+	color: #BEC3CC;
+	padding-top: 8px;
 	line-height: 1.8em;
 	font-weight: 500;
-	padding-bottom: 0;
+	margin-bottom: 0;
 }
 
+#footer ul {
+  text-align: center;
+}
+
+#footer li {
+  text-align: center;
+  padding-right: .2em;
+  display: inline;
+}
 
 /* Media Queries */
 
@@ -590,7 +527,7 @@ margin-right: 14px;
 	margin-left: 0;
   box-sizing: border-box;
   border: none;
-  box-shadow: 0 0 0 10px transparent;
+  box-shadow: 0 0 0 20px transparent;
   transition: all 0.5s ease;
 }
 
@@ -641,22 +578,32 @@ margin-right: 14px;
 /*End Mailchimp Signup Form CSS*/
 
 #footer a {
-	color: #1C4B9E;
+	color: #BEC3CC;
+  font-size: 10px;
+  font-weight: 600;
+  letter-spacing: .7px;
+  padding-right: 5px;
+  padding-left: 5px;
 	text-decoration: none;
 }
 
 #footer a:hover {
-	color: #312A37;
+	color: #1C4B9E;
 	text-decoration: none;
 }
 
 
 #footer p {
-	font-size: .8em;
+	font-size: 12px;
 	text-align: center;
-	color: #838383;
-	padding-top: 3px;
+	color: #BEC3CC;
+	padding-top: 8px;
 	line-height: 1.8em;
 	font-weight: 500;
 	margin-bottom: 0;
+}
+
+#footer li {
+  text-align: center;
+  display: inline;
 }

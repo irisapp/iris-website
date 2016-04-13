@@ -2,8 +2,8 @@
 Toast Framework - grid.css
 */
 .wrap {
-  max-width: 640px;
-  padding: 20px;
+  max-width: 960px;
+  padding: 0 0 15px 0;
   margin: 0 auto;
 }
 /*
