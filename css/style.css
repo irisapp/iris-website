@@ -452,7 +452,7 @@ margin-right: 5px;
 	width: 90%;
 	display: inline-block;
 	float: left;
-	margin-top: 14.5em;
+	margin-top: 13.5em;
   padding-left: 3em;
 }
 
@@ -594,10 +594,10 @@ margin-right: 14px;
 
 
 #footer p {
-	font-size: 12px;
+	font-size: 11px;
 	text-align: center;
 	color: #BEC3CC;
-	padding-top: 8px;
+	padding-top: 14px;
 	line-height: 1.8em;
 	font-weight: 500;
 	margin-bottom: 0;
