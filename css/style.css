@@ -104,7 +104,7 @@ margin-right: 5px;
 	font-weight: 200;
   color: #1C4B9E;
   margin: 0 auto;
-  padding-left: 1em;
+  padding-left: .8em;
 
 }
 
@@ -114,7 +114,7 @@ margin-right: 5px;
 	font-weight: 400;
 	line-height: 1.4em; /* 24 / 24 */
   margin: 0 auto;
-  padding-left: 1em;
+  padding-left: .8em;
 }
 
 .container h4 {
@@ -131,7 +131,8 @@ margin-right: 5px;
 
 #mc_embed_signup {
 	border: none;
-  padding-top: 10px;
+  padding-top: 20px;
+  padding-left: 0;
 }
 
 /*Do not remove the .clear class. This keeps it inline*/
@@ -146,12 +147,12 @@ margin-right: 5px;
 	letter-spacing: .03em;
 	color: #a8a8a8;
 	background-color: #fff;
-	padding: .7em 8em .7em 1.5em;
+	padding: .7em 2em .7em 1.5em;
 	border-radius: 50px;
 	-webkit-border-radius: 50px;
 	-moz-border-radius: 50px;
 	display: inline-block;
-	margin-left: 0;
+	margin-left: 1.5em;
   box-sizing: border-box;
   border: none;
   box-shadow: 0 0 0 20px transparent;
@@ -182,7 +183,7 @@ margin-right: 5px;
 	-webkit-border-radius: 50px;
 	-moz-border-radius: 50px;
 	display: inline-block;
-	margin-left: .2em;
+	margin-left: 1.5em;
 }
 
 ::-webkit-input-placeholder { /* WebKit browsers */
@@ -242,9 +243,8 @@ margin-right: 5px;
 }
 
 /* Media Queries */
-
 /* Tablet */
-@media (min-width: 767px) {
+@media (min-width: 641px) {
 
 .nav {
 	background-color: rgba(255, 255, 255, .0);
@@ -416,7 +416,7 @@ margin-right: 5px;
 }
 
 /* Desktop */
-@media (min-width: 1280px) {
+@media (min-width: 769px) {
 
 .logo {
   padding-left: 170px;
