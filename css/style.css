@@ -82,12 +82,19 @@ margin-right: 5px;
 	overflow-x: hidden;
 }
 
-/* Mobile */
+/* Media Queries */
+/* Mobile - iPhone 6S */
+
+.logo {
+  padding-left: 0;
+  width: 80px;
+}
+
 .container {
 	margin: 0 auto;
 	max-width: 100%;
-	height: 600px;
-	padding-top: 5em;
+	height: 520px;
+	padding-top: 3em;
 	position: relative;
 }
 
@@ -95,7 +102,7 @@ margin-right: 5px;
 	display: inline-block;
 	float: left;
   width: 98%;
-	margin-top: 1em;
+	margin-top: 4.5em;
 }
 
 .container h1 {
@@ -119,12 +126,12 @@ margin-right: 5px;
 
 .container h4 {
 	color: #DBDBDF;
-    font-size: .9em; /* 24 / 16 */
-    font-weight: 500;
-    line-height: 1.4em; /* 24 / 24 */
-    margin-bottom: .3em; /* 24 / 24 */
-    margin-top: 3em;
-    padding-left: 30px;
+  font-size: .9em; /* 24 / 16 */
+  font-weight: 500;
+  line-height: 1.4em; /* 24 / 24 */
+  margin-bottom: .3em; /* 24 / 24 */
+  margin-top: 3em;
+  padding-left: 30px;
 }
 
 /*Begin Mailchimp Signup Form*/
@@ -147,12 +154,12 @@ margin-right: 5px;
 	letter-spacing: .03em;
 	color: #a8a8a8;
 	background-color: #fff;
-	padding: .7em 2em .7em 1.5em;
+	padding: .7em 6.5em .7em 1.5em;
+  margin-left: 1.5em;
 	border-radius: 50px;
 	-webkit-border-radius: 50px;
 	-moz-border-radius: 50px;
 	display: inline-block;
-	margin-left: 1.5em;
   box-sizing: border-box;
   border: none;
   box-shadow: 0 0 0 20px transparent;
@@ -178,12 +185,13 @@ margin-right: 5px;
 	letter-spacing: .03em;
 	color: #fff;
 	background-color: #1C4B9E;
-	padding: .7em 3em;
+	padding: .7em 6.3em;
 	border-radius: 50px;
 	-webkit-border-radius: 50px;
 	-moz-border-radius: 50px;
 	display: inline-block;
 	margin-left: 1.5em;
+  margin-top: 10px;
 }
 
 ::-webkit-input-placeholder { /* WebKit browsers */
@@ -242,7 +250,10 @@ margin-right: 5px;
   display: inline;
 }
 
-/* Media Queries */
+/* Mobile - iPhone 6S Plus
+@media (min-width: 414px)*/
+
+
 /* Tablet */
 @media (min-width: 641px) {
 
@@ -258,22 +269,23 @@ margin-right: 5px;
   display: inline-block;
   width: 100px;
   float: left;
-  padding-left: 10px;
+  padding-left: 1.4em;
   padding-top: 16px;
 }
 
 .intro {
-	width: 80%;
+	width: 90%;
 	display: inline-block;
 	float: left;
 	margin-top: 10em;
+  margin-left: 4em;
 }
 
 .container {
 	margin: 0 auto;
 	width: 960px;
 	max-width: 100%;
-	height: 420px;
+	height: 700px;
 	padding-top: 5em;
 	position: relative;
 }
@@ -284,7 +296,7 @@ margin-right: 5px;
 	font-weight: 200;
   color: #1C4B9E;
   margin: 0;
-  padding-left: 2em;
+  padding-left: 3px;
 }
 
 .container h2 {
@@ -293,24 +305,25 @@ margin-right: 5px;
 	line-height: 1.3em; /* 24 / 24 */
   font-weight: 400;
   margin: 0;
-  padding-left: 2.01em;
+  padding-left: 3px;
 }
 
 .container h4 {
 	color: #DBDBDF;
-    font-size: .9em; /* 24 / 16 */
-    font-weight: 500;
-    line-height: 1.4em; /* 24 / 24 */
-    margin-bottom: .6em; /* 24 / 24 */
-    margin-top: 3em;
+  font-size: .9em; /* 24 / 16 */
+  font-weight: 500;
+  line-height: 1.4em; /* 24 / 24 */
+  margin-bottom: .6em; /* 24 / 24 */
+  margin-top: 3em;
 }
 
 /*Begin Mailchimp Signup Form*/
 
 #mc_embed_signup {
 	border: none;
-  padding-top: 10px;
-  padding-left: 2em;
+  padding-top: 18px;
+  padding-left: 0;
+  margin-left: 0;
 }
 
 /*Do not remove the .clear class. This keeps it inline*/
@@ -325,7 +338,8 @@ margin-right: 5px;
 	letter-spacing: .03em;
 	color: #a8a8a8;
 	background-color: #fff;
-	padding: .7em 7em .7em 1.5em;
+	padding: .7em 5em .7em 1.5em;
+  margin-left: 0;
 	border-radius: 50px;
 	-webkit-border-radius: 50px;
 	-moz-border-radius: 50px;
@@ -356,9 +370,10 @@ margin-right: 5px;
   text-align: center;
 	color: #fff;
 	background-color: #1C4B9E;
-	padding: .7em 3em;
+	padding: .7em 2.5em;
   width: auto;
   margin-left: 0;
+  margin-top: 0;
 	border-radius: 50px;
 	-webkit-border-radius: 50px;
 	-moz-border-radius: 50px;
@@ -419,7 +434,7 @@ margin-right: 5px;
 @media (min-width: 769px) {
 
 .logo {
-  padding-left: 170px;
+  padding-left: 15.7em;
   padding-top: 18px;
 }
 
@@ -439,7 +454,7 @@ margin-right: 14px;
 	margin: 0 auto;
 	width: 960px;
 	max-width: 100%;
-	height: 624px;
+	height: 622px;
 	padding-top: 5em;
 	position: relative;
 }
@@ -452,7 +467,7 @@ margin-right: 14px;
 	margin-top: .8em;
 	font-weight: 300;
 	padding-right: 1em;
-  padding-left: 1px;
+  padding-left: 3px;
 }
 
 .container h2 {
@@ -461,7 +476,7 @@ margin-right: 14px;
 	font-weight: 300;
   line-height: 1.2em; /* 24 / 24 */
   margin: 0 auto;
-  padding: 0 2em 0 1px;
+  padding: 0 2em 0 2px;
 }
 
 .container h4 {
@@ -479,7 +494,8 @@ margin-right: 14px;
 
 #mc_embed_signup {
 	border: none;
-  padding-top: 10px;
+  padding-top: 20px;
+  padding-left: 0;
 }
 
 /*Do not remove the .clear class. This keeps it inline*/
@@ -531,6 +547,7 @@ margin-right: 14px;
 	-moz-border-radius: 50px;
 	display: inline-block;
 	margin-left: .2em;
+  margin-top: 0;
 }
 
 ::-webkit-input-placeholder { /* WebKit browsers */
