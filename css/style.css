@@ -569,6 +569,12 @@ margin-right: 14px;
 
 /*End Mailchimp Signup Form CSS*/
 
+.footer {
+  text-align: center;
+  width: 100%;
+  border: 1px solid red;
+}
+
 #footer a {
 	color: #BEC3CC;
   font-size: 10px;

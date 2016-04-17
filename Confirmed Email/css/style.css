@@ -1,0 +1,365 @@
+*, ::after, ::before {
+    text-rendering: optimizeLegibility;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    -moz-font-feature-settings: "liga" on;
+}
+
+@font-face {
+    font-family: AvenirLTStd-Book;
+    src: url(Avenir_Book.ttf);
+    font-weight: 300;
+}
+
+@font-face {
+    font-family: AvenirLTStd-Medium;
+    src: url(Avenir_Medium.ttf);
+    font-weight: 500;
+}
+
+@font-face {
+    font-family: AvenirLT-Black;
+    src: url(Avenir_Blk.ttf);
+    font-weight: 700;
+}
+
+.hero {
+  margin-top: 0;
+	background: #FCFCFC;
+}
+
+.container {
+	margin: 0 auto;
+	max-width: 100%;
+}
+
+.container h1 {
+  color: #3B64AB;
+	font-size: 2.4em;
+	line-height: 1.2em;
+	font-weight: 700;
+	letter-spacing: .01em;
+	text-align: center;
+	margin-top: 2em;
+}
+
+.container h3:first-of-type {
+	padding-top: 6px;
+}
+
+.container h3 {
+	color: #BEC3CC;
+	font-size: 1.2em; /* 24 / 16 */
+	font-weight: 500;
+	line-height: 1.6em; /* 24 / 24 */
+	text-align: left;
+	padding-left: 3em;
+	padding-right: 3em;
+	opacity: .90;
+	padding-top: 22px;
+}
+
+.twitterbutton {
+	border: none;
+	font-size: .9em;
+  color: #FFF;
+	font-weight: 700;
+	text-align: center;
+	text-decoration: none;
+	outline: none;
+	letter-spacing: .03em;
+  background-color: #3B64AB;
+	padding: 1em 2em 1em 2em;
+	border-radius: 100px;
+	-webkit-border-radius: 100px;
+	-moz-border-radius: 100px;
+	margin-top: 38px;
+	width: 52%;
+}
+
+::-webkit-input-placeholder { /* WebKit browsers */
+	   color:    #5FC078;
+}
+:-moz-placeholder { /* Mozilla Firefox 4 to 18 */
+	   color:    #5FC078;
+	}
+	::-moz-placeholder { /* Mozilla Firefox 19+ */
+	   color:   #5FC078;
+	}
+	:-ms-input-placeholder { /* Internet Explorer 10+ */
+	   color:   #5FC078;
+	}
+
+.twitterbutton:hover {
+	background-color: #5FC078;
+	text-decoration: none;
+}
+
+.footer {
+  width: 100%;
+  text-align: center;
+  background-color: #f5f5f5;
+  padding: 0 0 1em 0;
+  position: absolute;
+  bottom: 0px;
+}
+
+.footer a {
+	color: #BEC3CC;
+  font-size: 10px;
+  font-weight: 600;
+  letter-spacing: .7px;
+	text-decoration: none;
+}
+
+.footer a:hover {
+	color: #1C4B9E;
+	text-decoration: none;
+}
+
+
+.footer p {
+	font-size: 11px;
+	text-align: center;
+	color: #BEC3CC;
+	padding-top: 14px;
+	line-height: 1.8em;
+	font-weight: 500;
+	margin-bottom: 0;
+}
+
+.footer ul {
+  margin: 0;
+}
+
+.footer li {
+  text-align: center;
+  display: inline;
+  padding: 0;
+  margin-left: 2em;
+}
+
+/* Media Queries */
+
+/* Tablet */
+@media (min-width: 767px) {
+
+img.logo {
+  margin-left: 20em;
+  margin-top: 3em;
+}
+
+.container {
+		width: 960px;
+		max-width: 100%;
+		position: center;
+    margin-bottom: 1em;
+}
+
+.container h1 {
+		font-size: 2.2em;
+		line-height: 1.2em;
+		font-weight: 300;
+		letter-spacing: .01em;
+		text-align: center;
+		margin-top: 2em;
+}
+
+.container h3:first-of-type {
+		padding-top: 6px;
+}
+
+.container h3 {
+		font-size: 1.2em; /* 24 / 16 */
+		font-weight: 500;
+		line-height: 1.6em; /* 24 / 24 */
+		text-align: left;
+		padding-left: 8em;
+		padding-right: 8em;
+		opacity: .90;
+		padding-top: 22px;
+}
+
+.twitterbutton {
+		padding: 1em 8em 1em 8em;
+		border-radius: 100px;
+		-webkit-border-radius: 100px;
+		-moz-border-radius: 100px;
+		display: inline-block;
+		margin-top: 28px;
+    margin-left: 10em;
+    margin-bottom: 22em;
+		width: 22%;
+}
+
+	::-webkit-input-placeholder { /* WebKit browsers */
+		color:    #5FC078;
+}
+	:-moz-placeholder { /* Mozilla Firefox 4 to 18 */
+		color:    #5FC078;
+}
+	::-moz-placeholder { /* Mozilla Firefox 19+ */
+		color:   #5FC078;
+}
+	:-ms-input-placeholder { /* Internet Explorer 10+ */
+		color:   #5FC078;
+}
+
+.twitter:hover {
+		background-color: #5FC078;
+		text-decoration: none;
+}
+
+.footer {
+  width: 100%;
+  text-align: center;
+  background-color: #f5f5f5;
+  padding: 1em 0 1em 0;
+  position: absolute;
+  bottom: 0px;
+}
+
+.footer a {
+	color: #BEC3CC;
+  font-size: 10px;
+  font-weight: 600;
+  letter-spacing: .7px;
+	text-decoration: none;
+}
+
+.footer a:hover {
+	color: #1C4B9E;
+	text-decoration: none;
+}
+
+.footer p {
+	font-size: 11px;
+	text-align: center;
+	color: #BEC3CC;
+	padding-top: 14px;
+	line-height: 1.8em;
+	font-weight: 500;
+	margin-bottom: 0;
+}
+
+.footer ul {
+  margin: 0;
+}
+
+.footer li {
+  text-align: center;
+  display: inline;
+  padding: 0;
+  margin-left: 2em;
+}
+
+/* Desktop */
+@media (min-width: 1280px) {
+
+img.logo {
+  margin-left: 0;
+  margin-top: 2em;
+}
+
+.container {
+	margin: 0 auto;
+	width: 960px;
+	max-width: 100%;
+	text-align: center;
+  padding-top: 2em;
+}
+
+.container h1 {
+	font-size: 2.2em;
+	line-height: 1.2em;
+	font-weight: 400;
+	letter-spacing: .01em;
+	text-align: center;
+	margin-top: 1.5em;
+}
+
+.container h3:first-of-type {
+	padding-top: 6px;
+}
+
+.container h3 {
+	font-size: 1.2em; /* 24 / 16 */
+	font-weight: 500;
+	line-height: 1.6em; /* 24 / 24 */
+	text-align: center;
+	padding-left: 12em;
+	padding-right: 12em;
+	opacity: .90;
+	padding-top: 22px;
+}
+
+.twitterbutton {
+	padding: 1em 8em 1em 8em;
+  border-radius: 100px;
+	margin-top: 28px;
+  margin-bottom: 4em;
+  margin-left: 0;
+	width: 20%;
+}
+
+::-webkit-input-placeholder { /* WebKit browsers */
+	   color:    #5FC078;
+}
+:-moz-placeholder { /* Mozilla Firefox 4 to 18 */
+	   color:    #5FC078;
+	}
+	::-moz-placeholder { /* Mozilla Firefox 19+ */
+	   color:   #5FC078;
+	}
+	:-ms-input-placeholder { /* Internet Explorer 10+ */
+	   color:   #5FC078;
+	}
+
+.twitterbutton:hover {
+	background-color: #5FC078;
+	text-decoration: none;
+}
+
+.footer {
+  width: 100%;
+  text-align: center;
+  background-color: #f5f5f5;
+  padding: 1em 0 1em 0;
+  position: absolute;
+  bottom: 0px;
+}
+
+.footer a {
+	color: #BEC3CC;
+  font-size: 10px;
+  font-weight: 600;
+  letter-spacing: .7px;
+	text-decoration: none;
+}
+
+.footer a:hover {
+	color: #1C4B9E;
+	text-decoration: none;
+}
+
+
+.footer p {
+	font-size: 11px;
+	text-align: center;
+	color: #BEC3CC;
+	padding-top: 14px;
+	line-height: 1.8em;
+	font-weight: 500;
+	margin-bottom: 0;
+}
+
+.footer ul {
+  margin: 0;
+}
+
+.footer li {
+  text-align: center;
+  display: inline;
+  padding: 0;
+  margin-left: 2em;
+}
