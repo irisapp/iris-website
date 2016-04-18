@@ -49,7 +49,7 @@ display: inline-block;
 width: 100px;
 float: left;
 padding-left: 174px;
-padding-top: 20px;
+padding-top: 18px;
 }
 
 /*Start Social Area*/
@@ -57,7 +57,7 @@ padding-top: 20px;
 .social {
 width: 100%;
 text-align: right;
-margin-top: 10px;
+margin-top: 16px;
 padding-right: 0px;
 display: block;
 }
@@ -69,14 +69,14 @@ padding-top: 0;
 
 .twitter-share-button {
 padding-top: 5px;
-margin-right: 5px;
+margin-right: 8px;
 }
 /*End Social Area*/
 
 .hero {
 	background: #FFFFFF;
   width: 100%;
-  height: 622px;
+  height: 608px;
   position: relative;
 }
 
@@ -101,7 +101,6 @@ margin-right: 5px;
   -moz-transition: opacity 2s ease;
   -ms-transition: opacity 2s ease;
   transition: opacity 2s ease;
-  width: 100%;
 }
 
 .image-container .image--active {
@@ -163,7 +162,7 @@ margin-right: 5px;
 
 #mc_embed_signup {
 	border: none;
-  padding-top: 20px;
+  padding-top: 26px;
   padding-left: 0;
 }
 
@@ -289,20 +288,34 @@ margin-right: 5px;
   position: fixed;
 }
 
+.hero {
+  width: 100%;
+  height: 860px;
+  position: relative;
+}
+
 .logo {
   text-align: center;
   display: inline-block;
   width: 100px;
   float: left;
   padding-left: 1.4em;
-  padding-top: 16px;
+  padding-top: 20px;
+}
+
+.social {
+margin-top: 16px;
+}
+
+.twitter-share-button {
+  margin-right: 15px;
 }
 
 .intro {
 	width: 90%;
 	display: inline-block;
 	float: left;
-	margin-top: 10em;
+	margin-top: 17em;
   margin-left: 4em;
 }
 
@@ -313,6 +326,17 @@ margin-right: 5px;
 	height: 700px;
 	padding-top: 0;
 	position: relative;
+}
+
+.image-container {
+  position: absolute;
+  width: 100%;
+  height: 860px;
+  overflow: hidden;
+}
+
+.image-container img {
+  height: 100%;
 }
 
 .container h1 {
@@ -450,6 +474,9 @@ margin-right: 5px;
 	margin-bottom: 0;
 }
 
+#footer ul {
+  padding-top: .2em;
+}
 #footer li {
   text-align: center;
   display: inline;
@@ -459,15 +486,20 @@ margin-right: 5px;
 @media (min-width: 769px) {
 
 .logo {
-  padding-left: 13.4em;
+  padding-left: 16em;
   padding-top: 18px;
+}
+
+.hero {
+  width: 100%;
+  height: 660px;
 }
 
 .intro {
 	width: 90%;
 	display: inline-block;
 	float: left;
-	margin-top: 13.5em;
+	margin-top: 16em;
   padding-left: 3em;
 }
 
@@ -475,12 +507,22 @@ margin-right: 5px;
 margin-right: 14px;
 }
 
+.image-container {
+  height: 660px;
+}
+
+.image-container img {
+  height: 130%;
+  width: 100%;
+}
+
+
 .container {
 	margin: 0 auto;
 	width: 960px;
 	max-width: 100%;
 	height: 622px;
-	padding-top: 5em;
+	padding-top: 0;
 	position: relative;
 }
 
@@ -506,13 +548,13 @@ margin-right: 14px;
 
 .container h4 {
 	color: #DBDBDF;
-    font-size: .9em; /* 24 / 16 */
-    font-weight: 500;
-    line-height: 1.4em; /* 24 / 24 */
-    margin: 0 auto;
-    margin-bottom: 0;
-    margin-top: 3em;
-    padding-left: 4px;
+  font-size: .9em; /* 24 / 16 */
+  font-weight: 500;
+  line-height: 1.4em; /* 24 / 24 */
+  margin: 0 auto;
+  margin-bottom: 0;
+  margin-top: 3em;
+  padding-left: 4px;
 }
 
 /*Begin Mailchimp Signup Form*/
