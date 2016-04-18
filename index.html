@@ -44,38 +44,38 @@
 	</div>
 	<div class="hero">
 		<div class="image-container" id="crossfader">
-	    <img class="image--active" src="../images/Seniors.jpg">
-	    <img src="../images/Family.jpg">
-	    <img src="../images/Travelers.jpg">
-			<script>window.crossfade = function() {
-			  // activeImg: first element with .image--active
-			  // within #crossfader
-			  var activeImg = document.querySelector('#crossfader .image--active');
+	    <img class="image--active" src="images/Seniors.jpg">
+	    <img src="images/Family.jpg">
+	    <img src="images/Travelers.jpg">
+  	</div>
+		<script>window.crossfade = function() {
+			// activeImg: first element with .image--active
+			// within #crossfader
+			var activeImg = document.querySelector('#crossfader .image--active');
 
-			  // nextImg: activeImg's closest next sibling
-			  var nextImg = activeImg.nextElementSibling;
+			// nextImg: activeImg's closest next sibling
+			var nextImg = activeImg.nextElementSibling;
 
-			  // If nextImg can't be found (activeImg is the
-			  // last element), start from beginning
-			  if (nextImg === null) {
-			    nextImg = document.querySelector('#crossfader').children[0];
-			  }
-
-			  // Remove .image--active class from activeImg
-			  activeImg.classList.remove('image--active');
-
-			  // Assign .image--active class to nextImg
-			  nextImg.classList.add('image--active');
+			// If nextImg can't be found (activeImg is the
+			// last element), start from beginning
+			if (nextImg === null) {
+				nextImg = document.querySelector('#crossfader').children[0];
 			}
 
-			// fadeTime: Interval before crossfade(); in
-			// miliseconds
-			var fadeTime = 5000;
+			// Remove .image--active class from activeImg
+			activeImg.classList.remove('image--active');
 
-			// Every <fadeTime> miliseconds, run crossfade();
-			var interval = window.setInterval(crossfade, fadeTime);
-			</script>
-  	</div>
+			// Assign .image--active class to nextImg
+			nextImg.classList.add('image--active');
+		}
+
+		// fadeTime: Interval before crossfade(); in
+		// miliseconds
+		var fadeTime = 5000;
+
+		// Every <fadeTime> miliseconds, run crossfade();
+		var interval = window.setInterval(crossfade, fadeTime);
+		</script>
 		<div class="container">
 			<div class="intro">
 				<h1>Iris, your modern day emergency alert.</h1>
