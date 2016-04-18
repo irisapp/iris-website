@@ -73,7 +73,7 @@ margin-right: 5px;
 /*End Social Area*/
 
 .hero {
-	background: #FFFFFF url('../images/home-seniors.png') no-repeat;
+	background: #FFFFFF url('../images/Seniors.jpg') no-repeat;
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
 	-o-background-size: cover;
@@ -434,7 +434,7 @@ margin-right: 5px;
 @media (min-width: 769px) {
 
 .logo {
-  padding-left: 15.7em;
+  padding-left: 13.4em;
   padding-top: 18px;
 }
 
@@ -569,12 +569,10 @@ margin-right: 14px;
 
 /*End Mailchimp Signup Form CSS*/
 
-.footer {
+#footer {
   text-align: center;
-  width: 100%;
-  border: 1px solid red;
+  width: 100
 }
-
 #footer a {
 	color: #BEC3CC;
   font-size: 10px;
