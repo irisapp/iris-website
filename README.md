@@ -6,4 +6,4 @@ Iris notifies your loved ones during the critical moments when you can’t. Be i
 
 ---
 For any questions, feel free to email hello@getiris.co<br>
-©2015. Iris App. All Rights Reserved.
+©2016. Iris. All Rights Reserved.
