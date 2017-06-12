@@ -41,9 +41,10 @@
 	<script>
 	  window.intercomSettings = {
 	    app_id: "xmp2ja1v"
+			user_hash: "<%= OpenSSL::HMAC.hexdigest('sha256', '8sqNsdqTQBTkPpq5BrV2rFHMfYF5lstNEQEXBWzR', current_user.email) %>"
 	  };
 	</script>
-	<script>(function(){var w=window;var ic=w.Intercom;if(typeof ic==="function"){ic('reattach_activator');ic('update',intercomSettings);}else{var d=document;var i=function(){i.c(arguments)};i.q=[];i.c=function(args){i.q.push(args)};w.Intercom=i;function l(){var s=d.createElement('script');s.type='text/javascript';s.async=true;s.src='https://widget.intercom.io/widget/xmp2ja1v';var x=d.getElementsByTagName('script')[0];x.parentNode.insertBefore(s,x);}if(w.attachEvent){w.attachEvent('onload',l);}else{w.addEventListener('load',l,false);}}})()</script>	
+	<script>(function(){var w=window;var ic=w.Intercom;if(typeof ic==="function"){ic('reattach_activator');ic('update',intercomSettings);}else{var d=document;var i=function(){i.c(arguments)};i.q=[];i.c=function(args){i.q.push(args)};w.Intercom=i;function l(){var s=d.createElement('script');s.type='text/javascript';s.async=true;s.src='https://widget.intercom.io/widget/xmp2ja1v';var x=d.getElementsByTagName('script')[0];x.parentNode.insertBefore(s,x);}if(w.attachEvent){w.attachEvent('onload',l);}else{w.addEventListener('load',l,false);}}})()</script>
 </head>
 
 <body>
@@ -96,13 +97,13 @@
 		<div class="container">
 			<div class="intro">
 				<h1>Iris, your modern day emergency alert.</h1>
-				<h2>Because everyone should have their someone when things get scary.</h2>
+				<h2>Providing hospital detection, a digital health card and rapid alerts to loved ones in the critical moment when you need it most.</h2>
 			<!-- Begin MailChimp Signup Form -->
 				<div id="mc_embed_signup">
 					<form action="//getiris.us11.list-manage.com/subscribe/post?u=aae4bd1587a34b75a419214b3&amp;id=44237e714c" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
 					<div id="mc_embed_signup_scroll">
 					<!-- Text Input Field -->
-						<div class="mc-field-group"><input type="email" placeholder="Enter your email" name="EMAIL" maxlength="40" class="required email" id="mce-EMAIL">
+						<div class="mc-field-group"><input type="email" placeholder="Enter your email" name="EMAIL" maxlength="50" class="required email" id="mce-EMAIL">
 						</div>
 					<!-- /Text Input Field -->
 						<div id="mce-responses" class="clear">
@@ -112,7 +113,7 @@
 					<!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
 						<div style="position: absolute; left: -5000px;"><input type="text" name="b_0b5586be71b0fee16a03f5684_e41ec18eab" tabindex="-1" value=""></div>
 					<!-- Submit Button -->
-						<div class="clear"><input type="submit" value="Sign up for beta" name="subscribe" id="mc-embedded-subscribe" class="button"></div>
+						<div class="clear"><input type="submit" value="SIGN UP FOR BETA" name="subscribe" id="mc-embedded-subscribe" class="button"></div>
 					<!-- /Submit Button -->
 						</div>
 					</form>
@@ -134,7 +135,7 @@
 						<li><a href="https://angel.co/irisapp/jobs?utm_source=startup_profile_header" target="_blank">JOBS</a></li>
 						<li><a href="#">TERMS & SERVICES</a></li>
 					</ul>
-					<p>Made with <span class="entypo">&hearts;</span> Remotely. ©2016 Iris. All Rights Reserved.</p>
+					<p>Made with <span class="entypo">&hearts;</span> All over the world. ©2017 Iris Health, Inc. All Rights Reserved.</p>
 			</div>
 			<!-- /Footer -->
 		</div>
