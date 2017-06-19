@@ -1,0 +1,77 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Iris—Reset your password</title>
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<link href="favicon.ico" rel="shortcut icon">
+	
+	<!--Reset Password Script Begins -->
+
+	<!--Reset Password Script Ends -->
+</head>
+
+<body>
+	<!-- Hero -->
+	<div class="hero">
+		<div class="container">
+				<img class="logo" width="50px" src="images/iris-logo.png">
+				<h1>Reset your password</h1>
+				<h3>Choose a strong password that only you know</h3>
+				
+				<!--Reset Password Form Begins -->
+			<div class="reset-password">	
+				<div class="errorbanner" data-behavior="banner error">Your passwords didn't match, try again please!</div>
+				   <div class="errorbanner" data-behavior="banner length">Your password must be at least 8 characters.</div>
+				   <div class="successbanner" data-behavior="banner success">Successfully changed!</div>
+				   <div class="resetform" data-behavior="form">
+				     <input type="hidden" name="email" value="INSERT_ACCOUNT_EMAIL">
+				     <label class="mb3 border-box">
+				       <input type="password" name="password" class="border-box dark-gray ba b--light-gray pv1 ph2 br2 w-100 avenir f5" placeholder="New Password">
+				     </label>
+				     <label class="pl3-ns mb3 border-box">
+				       <input type="password" name="password_confirmation" class="border-box dark-gray ba b--light-gray pv1 ph2 br2 w-100 avenir f5" placeholder="Confirm Password">
+				     </label>
+				     <button class="input-reset" data-behavior="submit">Reset Password</button>
+				   </div>
+			</div>
+				  <!--Reset Password Form Ends -->
+		</div>
+	</div>
+	<!-- Footer -->
+	<div class="footer">
+		<ul>
+			<li><a href="http://getiris.co">HOME</a></li>
+			<li><a href="https://medium.com/iris-app" target="_blank">BLOG</a></li>
+			<li><a href="mailto:hello@getiris.co" target="_blank">CONTACT</a></li>
+			<li><a href="https://angel.co/irisapp/jobs?utm_source=startup_profile_header" target="_blank">JOBS</a></li>
+			<li><a href="#">TERMS & SERVICES</a></li>
+		</ul>
+		<p>Made with <span class="entypo">&hearts;</span> Remotely. ©2017 Iris. All Rights Reserved.</p>
+	</div>
+	<!-- /Footer -->
+	<script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js'></script>
+	  
+	  <script>
+	  $(document).ready(function() {
+	  $('[data-behavior~=banner]').hide()
+	  $(document).on('click', '[data-behavior~=submit]', function() {
+	    // These should be scoped properly
+	    var inputs = $('input')
+	    var first = $(inputs[1]).val()
+	    var second = $(inputs[2]).val()
+	    // console.log(first, second)
+	    $('[data-behavior~=banner]').hide()
+	    if (first !== second) {
+	      $('[data-behavior~=error]').fadeIn()
+	    } else if (first.length < 8) {
+	      $('[data-behavior~=length]').fadeIn()
+	    } else {
+	      $('[data-behavior~=success]').fadeIn()
+	    }
+	  })
+	})
+	</script>
+</body>
+</html>
