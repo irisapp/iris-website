@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="1132px" height="300px" viewBox="0 0 1132 300" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 42 (36781) - http://www.bohemiancoding.com/sketch -->
+    <title>quote shapes</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <circle id="path-1" cx="27.8267043" cy="360.521304" r="27"></circle>
+        <mask id="mask-2" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="0" y="0" width="54" height="54" fill="white">
+            <use xlink:href="#path-1"></use>
+        </mask>
+        <path d="M849.054472,70.7397745 L833.953568,79.0715751 C831.540332,80.4030582 829.943945,79.2800798 830.390883,76.5453054 L833.302544,58.7291109 L821.046479,46.1913328 C819.115767,44.2162421 819.757704,42.2785388 822.490255,41.8618312 L839.319245,39.295449 L846.930065,23.1112739 C848.103342,20.6163351 850.005652,20.6164426 851.178879,23.1112739 L858.789699,39.295449 L875.618689,41.8618312 C878.346777,42.2778582 878.990385,44.219098 877.062465,46.1913328 L864.8064,58.7291109 L867.718061,76.5453054 C868.16368,79.2720088 866.568878,80.4032049 864.155376,79.0715751 L849.054472,70.7397745 Z" id="path-3"></path>
+        <mask id="mask-4" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="0" y="0" width="60" height="60" fill="white">
+            <use xlink:href="#path-3"></use>
+        </mask>
+        <rect id="path-5" x="403.148229" y="227.430148" width="52" height="52" rx="5.69999993"></rect>
+        <mask id="mask-6" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="0" y="0" width="52" height="52" fill="white">
+            <use xlink:href="#path-5"></use>
+        </mask>
+        <path d="M817.030885,257.481954 C818.53889,254.723074 820.983195,254.721878 822.491853,257.481954 L846.334343,301.101561 C847.842348,303.860441 846.508876,306.096955 843.365395,306.096955 L796.157344,306.096955 C793.009635,306.096955 791.679737,303.861637 793.188396,301.101561 L817.030885,257.481954 Z" id="path-7"></path>
+        <mask id="mask-8" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="0" y="0" width="54" height="50.4020594" fill="white">
+            <use xlink:href="#path-7"></use>
+        </mask>
+        <polygon id="path-9" points="1126 0 1151.98076 15 1151.98076 45 1126 60 1100.01924 45 1100.01924 15"></polygon>
+        <mask id="mask-10" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="0" y="0" width="60" height="60" fill="white">
+            <use xlink:href="#path-9"></use>
+        </mask>
+        <path d="M228.730645,275.488349 L216.178393,262.936098 C215.618437,262.376141 214.710568,262.376141 214.150612,262.936098 C213.590656,263.496054 213.590656,264.403922 214.150612,264.963879 L226.702864,277.51613 L214.150612,290.068382 C213.590656,290.628338 213.590656,291.536207 214.150612,292.096163 C214.710568,292.656119 215.618437,292.656119 216.178393,292.096163 L228.730645,279.543912 L241.282896,292.096163 C241.842853,292.656119 242.750721,292.656119 243.310678,292.096163 C243.870634,291.536207 243.870634,290.628338 243.310678,290.068382 L230.758426,277.51613 L243.310678,264.963879 C243.870634,264.403923 243.870634,263.496054 243.310678,262.936098 C242.750721,262.376141 241.842853,262.376141 241.282896,262.936098 L228.730645,275.488349 Z" id="path-11"></path>
+        <mask id="mask-12" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="0" y="0" width="30" height="30" fill="white">
+            <use xlink:href="#path-11"></use>
+        </mask>
+        <path d="M638.730645,295.488349 L626.178393,282.936098 C625.618437,282.376141 624.710568,282.376141 624.150612,282.936098 C623.590656,283.496054 623.590656,284.403922 624.150612,284.963879 L636.702864,297.51613 L624.150612,310.068382 C623.590656,310.628338 623.590656,311.536207 624.150612,312.096163 C624.710568,312.656119 625.618437,312.656119 626.178393,312.096163 L638.730645,299.543912 L651.282896,312.096163 C651.842853,312.656119 652.750721,312.656119 653.310678,312.096163 C653.870634,311.536207 653.870634,310.628338 653.310678,310.068382 L640.758426,297.51613 L653.310678,284.963879 C653.870634,284.403923 653.870634,283.496054 653.310678,282.936098 C652.750721,282.376141 651.842853,282.376141 651.282896,282.936098 L638.730645,295.488349 Z" id="path-13"></path>
+        <mask id="mask-14" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="0" y="0" width="30" height="30" fill="white">
+            <use xlink:href="#path-13"></use>
+        </mask>
+        <path d="M478.730645,85.4883491 L466.178393,72.9360976 C465.618437,72.3761412 464.710568,72.3761412 464.150612,72.9360976 C463.590656,73.4960539 463.590656,74.4039225 464.150612,74.9638788 L476.702864,87.5161303 L464.150612,100.068382 C463.590656,100.628338 463.590656,101.536207 464.150612,102.096163 C464.710568,102.656119 465.618437,102.656119 466.178393,102.096163 L478.730645,89.5439115 L491.282896,102.096163 C491.842853,102.656119 492.750721,102.656119 493.310678,102.096163 C493.870634,101.536207 493.870634,100.628338 493.310678,100.068382 L480.758426,87.5161303 L493.310678,74.9638788 C493.870634,74.4039225 493.870634,73.4960539 493.310678,72.9360976 C492.750721,72.3761412 491.842853,72.3761412 491.282896,72.9360975 L478.730645,85.4883491 Z" id="path-15"></path>
+        <mask id="mask-16" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="0" y="0" width="30" height="30" fill="white">
+            <use xlink:href="#path-15"></use>
+        </mask>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" opacity="0.150000006">
+        <g id="Website-Home" transform="translate(-228.000000, -1397.000000)" stroke-width="6" stroke="#83B0FF">
+            <g id="//-Quote-//" transform="translate(0.000000, 1397.000000)">
+                <g id="Base">
+                    <g id="quote-shapes" transform="translate(227.000000, -56.000000)">
+                        <use id="Oval-242" mask="url(#mask-2)" xlink:href="#path-1"></use>
+                        <use id="Star" mask="url(#mask-4)" xlink:href="#path-3"></use>
+                        <use id="Rectangle-404" mask="url(#mask-6)" transform="translate(429.148229, 253.430148) rotate(105.000000) translate(-429.148229, -253.430148) " xlink:href="#path-5"></use>
+                        <use id="Triangle-24" mask="url(#mask-8)" transform="translate(819.760711, 280.895925) rotate(-50.000000) translate(-819.760711, -280.895925) " xlink:href="#path-7"></use>
+                        <use id="Polygon" mask="url(#mask-10)" xlink:href="#path-9"></use>
+                        <use id="X" mask="url(#mask-12)" transform="translate(228.730645, 277.516130) rotate(120.000000) translate(-228.730645, -277.516130) " xlink:href="#path-11"></use>
+                        <use id="X" mask="url(#mask-14)" transform="translate(638.730645, 297.516130) rotate(90.000000) translate(-638.730645, -297.516130) " xlink:href="#path-13"></use>
+                        <use id="X" mask="url(#mask-16)" transform="translate(478.730645, 87.516130) rotate(60.000000) translate(-478.730645, -87.516130) " xlink:href="#path-15"></use>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

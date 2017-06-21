@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="95px" height="63px" viewBox="0 0 95 63" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 44.1 (41455) - http://www.bohemiancoding.com/sketch -->
+    <title>Get in touch</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" stroke-linecap="round">
+        <g id="Website-–-About" transform="translate(-766.000000, -2845.000000)" stroke="#6CD286" stroke-width="2">
+            <g id="Get-in-touch" transform="translate(766.250000, 2845.000000)">
+                <g id="Message-Picto" transform="translate(30.900003, 0.980002)">
+                    <path d="M36.5233619,41.4394603 L40.6266383,47.8223303 C42.1140862,50.1361367 44.5365793,50.1425833 46.0281715,47.8223303 L50.1314479,41.4394603 L57.5814941,41.4394603 C60.3382079,41.4394603 62.5840597,39.2027957 62.5840597,36.4437302 L62.5840597,5.01925008 C62.5840597,2.26490549 60.3443348,0.0235199986 57.5814941,0.0235199986 L5.00256557,0.0235199986 C2.24585185,0.0235199986 0,2.26018454 0,5.01925008 L0,36.4437302 C0,39.1980748 2.2397249,41.4394603 5.00256557,41.4394603 L36.5233619,41.4394603 Z" id="Combined-Shape" fill="#FCFCFC" stroke-linejoin="round"></path>
+                    <path d="M10.3999994,11 L52.3999994,11" id="Line"></path>
+                    <path d="M20.3999994,19 L52.3999994,19" id="Line-Copy"></path>
+                </g>
+                <g id="Message-Picto" transform="translate(0.900003, 11.980002)">
+                    <path d="M12.5233619,41.4394603 L16.6266383,47.8223303 C18.1140862,50.1361367 20.5365793,50.1425833 22.0281715,47.8223303 L26.1314479,41.4394603 L57.5814941,41.4394603 C60.3382079,41.4394603 62.5840597,39.2027957 62.5840597,36.4437302 L62.5840597,5.01925008 C62.5840597,2.26490549 60.3443348,0.0235199986 57.5814941,0.0235199986 L5.00256557,0.0235199986 C2.24585185,0.0235199986 0,2.26018454 0,5.01925008 L0,36.4437302 C0,39.1980748 2.2397249,41.4394603 5.00256557,41.4394603 L12.5233619,41.4394603 Z" id="Combined-Shape" fill="#FCFCFC" stroke-linejoin="round"></path>
+                    <path d="M10.3999994,11 L52.3999994,11" id="Line"></path>
+                    <path d="M10.3999994,19 L42.3999994,19" id="Line-Copy"></path>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

@@ -3,142 +3,208 @@
 <head>
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<title>Iris, your modern day emergency alert. Because everyone should have their someone when things get scary.</title>
-	<link rel="stylesheet" type="text/css" href="css/toast.css">
-	<link rel="stylesheet" type="text/css" href="css/type.css">
-	<link rel="stylesheet" type="text/css" href="css/style.css">
-	<link rel="stylesheet" type="text/css" href="css/animate.css">
-	<link href="MyFontsWebfontsKit.css" rel='stylesheet' type='text/css'>
-	<link href="favicon.ico" rel="shortcut icon">
-	<!-- for Facebook -->
-	<meta property="og:title" content="Iris" />
-	<meta property="og:type" content="website" />
-	<meta property="og:image" content="http://www.getiris.co/images/social-bg.png" />
-	<meta property="og:url" content="http://www.getiris.co" />
-	<meta property="og:description" content="Your modern day emergency alert. Iris keeps your loved ones informed during critical moments when you need them most." />
-	<!--for Twitter-->
-	<meta property="twitter:card" content="Your modern day emergency alert." >
-	<meta property="twitter:title" content="Iris" >
-	<meta property="twitter:description" content="Because everyone should have their someone when things get scary " >
-	<meta property="twitter:creator" content="@irisapp" >
-	<meta property="twitter:url" content="http://getiris.co" >
-	<meta property="twitter:image" content="http://getiris.co/images/social-bg.png" >
-	<!--END OPEN GRAPH STUFF-->
-	<!--GOOGLE APPS EMAIL-->
-	<meta name="google-site-verification" content="nihJg1CtK1Imdj1Mpvk8u2KsArRjwrPEx_3neZVtGvQ" />
-	<!--GOOGLE ANALYTICS-->
-	<script>
-  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
-
-  ga('create', 'UA-63808412-2', 'auto');
-  ga('send', 'pageview');
-	</script>
-	<!--END GOOGLE ANALYTICS-->
-	<!--INTERCOM ACQUIRE-->
-	<script>
-	  window.intercomSettings = {
-	    app_id: "xmp2ja1v"
-			user_hash: "<%= OpenSSL::HMAC.hexdigest('sha256', '8sqNsdqTQBTkPpq5BrV2rFHMfYF5lstNEQEXBWzR', current_user.email) %>"
-	  };
-	</script>
-	<script>(function(){var w=window;var ic=w.Intercom;if(typeof ic==="function"){ic('reattach_activator');ic('update',intercomSettings);}else{var d=document;var i=function(){i.c(arguments)};i.q=[];i.c=function(args){i.q.push(args)};w.Intercom=i;function l(){var s=d.createElement('script');s.type='text/javascript';s.async=true;s.src='https://widget.intercom.io/widget/xmp2ja1v';var x=d.getElementsByTagName('script')[0];x.parentNode.insertBefore(s,x);}if(w.attachEvent){w.attachEvent('onload',l);}else{w.addEventListener('load',l,false);}}})()</script>
+	
+	<!-- for Google -->
+	<meta name="description" content="" />
+	<meta name="keywords" content="" />
+	<meta name="author" content="" />
+	
+	<!-- for Facebook -->          
+	<meta property="og:title" content="" />
+	<meta property="og:type" content="" />
+	<meta property="og:image" content="##" />
+	<meta property="og:url" content="http://www.getiris.co/" />
+	<meta property="og:description" content="" />
+	
+	<link rel="stylesheet" href="css/reset.css">
+	<link rel="stylesheet" href="css/style.css">
+	
+	
+	<link rel="shortcut icon" href="favicon.ico" >
+	<link rel="apple-touch-icon-precomposed" href="/apple-touch-icon-precomposed.png" />
+	
+	<title>Iris—Your modern day emergency alert</title>
 </head>
-
 <body>
-	<!-- Top Section -->
-	<div class="nav">
-		<div class="logo">
-			<img src ="images/iris-logo.png" alt="iris-logo" style="width: 40px; height: 40px;">
-		</div>
-		<div class="social">
-			<iframe class="fb" src="//www.facebook.com/plugins/like.php?href=http%3A%2F%2Fgetiris.co&amp;width&amp;layout=button_count&amp;action=like&amp;show_faces=false&amp;share=true&amp;height=21" scrolling="no" frameborder="0" style="border:none; overflow:hidden; height:21px;" allowTransparency="true"></iframe>
-			<a href="https://twitter.com/share" class="twitter-share-button" data-url="http://www.getiris.co" data-via="irisapp">Tweet</a>
-				<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');
-			</script>
+	<div class="header">
+		<div class="hero">
+			<div class="iris-logo">
+				<img style="width: 50px;" src="images/iris-logo.png" alt="" />
+			</div>
+			<div class="nav">
+				<ul>
+					<li><a href="index.html">Home</a></li>
+					<li><a href="blog.html">Blog</a></li>
+					<li><a href="contact.html">Contact</a></li>
+				</ul>
+			</div>
+			<div class="copy">
+				<h1>Your modern day emergency alert</h1>
+				<h2>Iris provides hospital detection, your
+				own digital health card and rapid alerts
+				to your loved ones when you need it most.</h2>
+				<a href="shop/index.html" class="download-button">DOWNLOAD FOR iOS</a>
+			</div>
 		</div>
 	</div>
-	<div class="hero">
-		<div class="image-container" id="crossfader">
-			<div class="image seniors image--active"></div>
-			<div class="image family"></div>
-			<div class="image travelers"></div>
+  	<div class="pattern-container">
+	  	<section class="works">	
+	  		<h4>HOW IRIS WORKS</h4>
+	  		<h3>Keeping your loved ones informed during the critical moments when you’re unable to yourself.</h3>
+	  		<div class="works-container">
+	  			<div class="step">
+	  				<img style="width: 200px;" src="images/informs.png" alt="" />
+	  				<h5>Informs contacts</h5>
+	  				<p>Not okay? Your emergency contacts are provided the info needed to reach you and your Health Card is easily accesible.</p>
+	  			</div>
+	  			<div class="step">
+	  				<img style="width: 200px;" src="images/informs.png" alt="" />
+	  				<h5>Hospital detection</h5>
+	  				<p>Not okay? Your emergency contacts are provided the info needed to reach you and your Health Card is easily accesible.</p>
+	  			</div>
+	  			<div class="step">
+	  				<img style="width: 200px;" src="images/informs.png" alt="" />
+	  				<h5>Health Card 2.0</h5>
+	  				<p>Not okay? Your emergency contacts are provided the info needed to reach you and your Health Card is easily accesible.</p>
+	  			</div>
+	  		</div>		
+	  	</section>
+	  	<section class="testimonial-container">
+	  		<div class="testimonial-copy">
+	  			<div class="testimonial-copy-container">
+	  				<p style="color: #3B64AB;">Because everyone needs their someone when things get scary.</p>
+	  			</div>
+	  		</div>
+	  	</section>
+	  	<section class="features">
+	  		<h4>FEATURES YOU NEED</h4>
+	  		<h3>In true good friend fashion, Iris is there when it matters. Providing only the necessary info to the appropriate people.</h3>
+	  		<div class="features-container">
+	  			<div class="feature-list">
+	  				<h5>DIGITAL HEALTH CARD 2.0</h5>
+	  				<h6>Instant access. With all of your critical health info. And always keeping your data safe.</h6>
+	  				<ul>
+	  					<li>
+	  						<img style="width: 45px;" src="images/people-picto.png" alt="" />
+	  						<p>Your health card provides doctor’s your age, blood type, allergies, emergency contact info, native language and more.</p>
+	  					</li>
+	  					<li>
+	  						<img style="width: 33px;" src="images/lock-picto.png" alt="" />
+	  						<p>Your card in Wallet app means the personal and private information on your phone is never accessed or used.</p>
+	  					</li>
+	  					<li>
+	  						<img style="width: 25px;" src="images/phone-picto.png" alt="" />
+	  						<p>Surfaces on your lockscreen once we confirm that you need help. Medical professionals simply swipe to open.</p>
+	  					</li>
+	  				</ul>
+	  			</div>
+	  			<div class="iphone">
+	  				<img src="images/iris-iphone.png" alt="" />
+	  			</div>
+	  		</div>
+	  	</section>
   	</div>
-		<script>window.crossfade = function() {
-			// activeImg: first element with .image--active
-			// within #crossfader
-			var activeImg = document.querySelector('#crossfader .image--active');
-
-			// nextImg: activeImg's closest next sibling
-			var nextImg = activeImg.nextElementSibling;
-
-			// If nextImg can't be found (activeImg is the
-			// last element), start from beginning
-			if (nextImg === null) {
-				nextImg = document.querySelector('#crossfader').children[0];
-			}
-
-			// Remove .image--active class from activeImg
-			activeImg.classList.remove('image--active');
-
-			// Assign .image--active class to nextImg
-			nextImg.classList.add('image--active');
-		}
-
-		// fadeTime: Interval before crossfade(); in
-		// miliseconds
-		var fadeTime = 5000;
-
-		// Every <fadeTime> miliseconds, run crossfade();
-		var interval = window.setInterval(crossfade, fadeTime);
-		</script>
-		<div class="container">
-			<div class="intro">
-				<h1>Iris, your modern day emergency alert.</h1>
-				<h2>Providing hospital detection, a digital health card and rapid alerts to loved ones in the critical moment when you need it most.</h2>
-			<!-- Begin MailChimp Signup Form -->
-				<div id="mc_embed_signup">
-					<form action="//getiris.us11.list-manage.com/subscribe/post?u=aae4bd1587a34b75a419214b3&amp;id=44237e714c" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
-					<div id="mc_embed_signup_scroll">
-					<!-- Text Input Field -->
-						<div class="mc-field-group"><input type="email" placeholder="Enter your email" name="EMAIL" maxlength="50" class="required email" id="mce-EMAIL">
-						</div>
-					<!-- /Text Input Field -->
-						<div id="mce-responses" class="clear">
-							<div class="response" id="mce-error-response" style="display:none"></div>
-							<div class="response" id="mce-success-response" style="display:none"></div>
-						</div>
-					<!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
-						<div style="position: absolute; left: -5000px;"><input type="text" name="b_0b5586be71b0fee16a03f5684_e41ec18eab" tabindex="-1" value=""></div>
-					<!-- Submit Button -->
-						<div class="clear"><input type="submit" value="SIGN UP FOR BETA" name="subscribe" id="mc-embedded-subscribe" class="button"></div>
-					<!-- /Submit Button -->
-						</div>
-					</form>
-				</div>
-		<!--End mc_embed_signup-->
+  	<section id="more-features" class="more-features">
+		<div class="more-features-container">
+			<table>
+				<tr>
+					<td>
+						<h5>Hospital Detection</h5>
+						<p>Your health card provides doctor’s your age, blood type, allergies, emergency contact info and more. The critical info they need to help them help you.</p>
+					</td>
+					<td>
+						<h5>Emergency Contacts</h5>
+						<p>Your health card provides doctor’s your age, blood type, allergies, emergency contact info and more. The critical info they need to help them help you.</p>
+					</td>
+					<td>
+						<h5>Rapid Notifications</h5>
+						<p>Your health card provides doctor’s your age, blood type, allergies, emergency contact info and more. The critical info they need to help them help you.</p>
+					</td>
+				</tr>
+				<tr class="spacer">&nbsp;</tr>
+				<tr>
+					<td>
+						<h5>Mute Hospitals</h5>
+						<p>Your health card provides doctor’s your age, blood type, allergies, emergency contact info and more. The critical info they need to help them help you.</p>
+					</td>
+					<td>
+						<h5>Verified Contacts</h5>
+						<p>Your health card provides doctor’s your age, blood type, allergies, emergency contact info and more. The critical info they need to help them help you.</p>
+						<span class="coming-soon-badge">Coming Soon</span>
+					</td>
+					<td>
+						<h5>Accessibility</h5>
+						<p>Your health card provides doctor’s your age, blood type, allergies, emergency contact info and more. The critical info they need to help them help you.</p>
+						<span class="coming-soon-badge">Coming Soon</span>
+					</td>
+				</tr>
+			</table>
+		</div>
+	</section>
+	<section id="map" class="map">
+		<div class="map-container">
+			<div class="map-copy">
+				<p>Starting in two cities in two countries with two languages to kickstart a global expansion.</p>
+				<a href="shop/index.html" class="download-button">REQUEST YOUR CITY</a>
 			</div>
 		</div>
-	</div>
-
-	<!-- /Bottom Content -->
-	<div class="wrap">
-	  	<div class="grids">
-			<!-- Footer -->
-			<div class="grid-12" id="footer">
-					<ul>
-						<li><a href="http://getiris.co">HOME</a><li>
-						<li><a href="https://medium.com/iris-app" target="_blank">BLOG</a></li>
-						<li><a href="mailto:hello@getiris.co" target="_blank">CONTACT</a></li>
-						<li><a href="https://angel.co/irisapp/jobs?utm_source=startup_profile_header" target="_blank">JOBS</a></li>
-						<li><a href="#">TERMS & SERVICES</a></li>
-					</ul>
-					<p>Made with <span class="entypo">&hearts;</span> All over the world. ©2017 Iris Health, Inc. All Rights Reserved.</p>
-			</div>
-			<!-- /Footer -->
+	</section>
+	<footer>
+		<div class="footer-container">
+			<table class="footer-nav">
+				<tr>
+					<td>
+						<ul>
+							<li>Product</li>
+							<li><a href="http://">Download for iOS</a></li>
+							<li><a href="mailto:">Request for Android</a></li>
+						</ul>
+					</td>
+					<td>
+						<ul>
+							<li>Legal</li>
+							<li><a href="terms-of-use.html">Terms of Use</a></li>
+							<li><a href="privacy-policy.html">Privacy Policy</a></li>
+						</ul>
+					</td>
+					<td>
+						<ul>
+							<li>Company</li>
+							<li><a href="about-us.html">About Us</a></li>
+							<li><a href="blog.html">Blog</a></li>
+							<li><a href="press.html">Press</a></li>
+						</ul>
+					</td>
+					<td>
+						<ul>
+							<li>Social</li>
+							<a href="https://www.facebook.com/getiris/"><img src="images/facebook.svg" alt="" style="margin-right: .5em;" /></a>
+							<a href="https://www.twitter.com/irisapp"><img src="images/twitter.svg" alt="" style="margin-right: .3em;"/></a>
+							<a href=""><img src="images/instagram.svg" alt=""/></a>
+						</ul>
+					</td>
+				</tr>
+			</table>
+			<div class="copyright"><p>©2017 Iris Health, Inc. All Rights Reserved.</p></div>
 		</div>
-	</div>
+	</footer>
+	<!-- Google Analytics -->
+	<script>
+	  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+	  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+	  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+	  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+	
+	  ga('create', 'UA-46720585-1', 'typogui.de');
+	  ga('send', 'pageview');
+	
+	</script>
+	<!-- /Google Analytics -->
+	<!-- Java Script -->
+	<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>		
+	<script type="text/javascript" src="jquery.easing.1.3.js"></script>
+	<script type="text/javascript" src="main.js"></script>
+	<!-- /Java Script -->
+
 </body>
 </html>
