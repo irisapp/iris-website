@@ -429,7 +429,7 @@ a:hover.download-button {
 
 .privacy-policy ul, li {
 	text-align: left;
-	margin-left: 1.5em;
+	margin-left: 0;
 	list-style-type: disc;
 	list-style-position: outside;
 	margin-bottom: 1em;
