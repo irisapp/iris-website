@@ -599,6 +599,7 @@ td:last-child {
 	width: 250px;
 	padding-left: 20px;
 	padding-right: 20px;
+	margin-bottom: 3em;
 	display: inline-block;
 }
 
@@ -614,6 +615,13 @@ td:last-child {
 	color: #838383;
 }
 
+img.profile {
+	-moz-border-radius: 100px;
+	-webkit-border-radius: 100px;
+	-khtml-border-radius: 100px;
+	border-radius: 100px;
+}
+
 .map-about {
 	text-align: center;
 	background-image: url("../images/map-about.png");
@@ -622,7 +630,7 @@ td:last-child {
 	background-color: #fff;
 	background-size: 100%;
 	vertical-align: top;
-	margin-top: 4em;
+	margin-top: 2em;
 	height: 480px;
 }
 
@@ -644,6 +652,10 @@ td:last-child {
 	text-align: center;
 	line-height: 1.5em;
 	margin-bottom: 1em;
+}
+
+.kit {
+	text-align: center;
 }
 
 .kit-container {
@@ -668,6 +680,14 @@ td:last-child {
   margin-left: 1%;
   width: 48%;
   height: 140px;
+}
+
+.kit-grid a {
+  text-decoration: none;
+}
+
+.kit-grid a:hover {
+  opacity: 0.5;
 }
 
 .kit-grid h5 {
