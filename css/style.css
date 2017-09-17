@@ -552,7 +552,7 @@ td:last-child {
 
 .map {
 	text-align: center;
-	background-image: url("../images/atlas.svg");
+	background-color: #f9fbff;
 	background-repeat: no-repeat;
 	background-position: center right;
 	background-position-x: 0;
@@ -581,6 +581,14 @@ td:last-child {
 	margin-bottom: 1em;
 }
 
+.map li {
+	list-style-type: none;
+	text-align: left;
+}
+
+.map h5 {
+	text-align: left;
+}
 .team {
 	text-align: center;
 }
