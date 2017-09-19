@@ -552,13 +552,9 @@ td:last-child {
 
 .map {
 	text-align: center;
-	background-color: #f9fbff;
-	background-repeat: no-repeat;
-	background-position: center right;
-	background-position-x: 0;
-	vertical-align: top;
+	background-color: #F2F7FF;
 	margin-top: 4em;
-	height: 600px;
+	height: 740px;
 }
 
 .map-container {
@@ -566,11 +562,26 @@ td:last-child {
 	max-width: 900px;
 	padding-left: 3em;
 	padding-right: 3em;
+	padding-top:  1.2em;
+	display: inline-block;
+}
+
+.map table {
 	display: inline-block;
 }
 
 .map-copy {
 	margin-top: 16em;
+}
+
+.map h4 {
+	padding-top: 4em;
+}
+
+.map h5 {
+	text-align: left;
+	padding-top: 1.5em;
+	padding-bottom: .5em;
 }
 
 .map-copy p {
@@ -584,11 +595,28 @@ td:last-child {
 .map li {
 	list-style-type: none;
 	text-align: left;
+	line-height: 1.3em;
 }
 
-.map h5 {
-	text-align: left;
+a.request-button {
+	font-size: 1em;
+	font-family: AvenirLTStd-Heavy, 'Helvetica Neue', Helvetica, Arial, sans-serif;
+	line-height: 1em;
+	letter-spacing: 1px;
+	color: #fff;
+	background-color: #71A4FF;
+	-moz-border-radius: 100px;
+	-webkit-border-radius: 100px;
+	-khtml-border-radius: 100px;
+	border-radius: 100px;
+	padding: 1.4em 4.5em 1.3em 4.5em;
+	text-decoration: none;
+	text-align: center;
+	margin-top: 3em;
+	margin-bottom: .5em;
+	display: inline-block;
 }
+
 .team {
 	text-align: center;
 }
@@ -750,7 +778,7 @@ img.profile {
 
 
 footer {
-	background-color: rgba(131,176,255,0.05);
+	background-color: rgba(113, 164, 255, .05);
 	text-align: center;
 	padding-top: 2em;
 	padding-bottom: .5em;
