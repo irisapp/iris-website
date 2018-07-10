@@ -31,6 +31,9 @@ img.logo {
 .hero {
   margin-top: 0;
   background: #FCFCFC;
+  background-image: url("../images/hero-shapes.svg") !important;
+  background-repeat: no-repeat;
+  background-position: bottom left !important;
 }
 
 .container {
@@ -75,9 +78,7 @@ img.logo {
 	border-radius: 100px;
 	-webkit-border-radius: 100px;
 	-moz-border-radius: 100px;
-  display: inline-block;
 	margin-top: 18px;
-  margin-left: 3em;
 	width: 62%;
 }
 
@@ -153,11 +154,14 @@ img.logo {
   padding-top: 4em;
 }
 
+.hero {
+	height: 1040px
+}
 .container {
-		width: 960px;
-		max-width: 100%;
-		position: center;
-    margin-bottom: 1em;
+width: 960px;
+max-width: 100%;
+position: center;
+margin-bottom: 1em;
 }
 
 .container h1 {
@@ -179,16 +183,35 @@ img.logo {
 		padding-right: 8em;
 }
 
+input {
+font-family: Avenir;
+font-weight: 500;
+font-size: 1em;
+text-align: center;
+border: 1px solid #E9E9E9;
+-webkit-border-radius: 100px;
+-moz-border-radius: 100px;
+border-radius: 100px;
+color: #2E282C;
+background-color: #FFF;
+box-sizing: border-box;
+box-shadow: none;
+padding: 1.1em 8em .9em 8em;
+margin: 0;
+width: 72%;
+margin-top: 1em;
+}
+
 .button {
-		padding: 1em 8em 1em 8em;
-		border-radius: 100px;
-		-webkit-border-radius: 100px;
-		-moz-border-radius: 100px;
-    margin-top: 28px;
-    margin-left: 11em;
-    margin-bottom: 22em;
-    display: inline-block;
-		width: 20%;
+font-family: Avenir;
+font-size: 1em;
+text-align: center !important;
+padding: 1.2em;
+-webkit-border-radius: 100px;
+-moz-border-radius: 100px;
+border-radius: 100px;
+width: 58%;
+margin-left: 10em;
 }
 
 	::-webkit-input-placeholder { /* WebKit browsers */
@@ -202,11 +225,6 @@ img.logo {
 }
 	:-ms-input-placeholder { /* Internet Explorer 10+ */
 		color:   #5FC078;
-}
-
-.twitter:hover {
-		background-color: #5FC078;
-		text-decoration: none;
 }
 
 .footer {
@@ -258,6 +276,10 @@ img.logo {
   padding-top: 2em;
 }
 
+.hero {
+height: 690px;
+}
+
 .container {
 margin: 0 auto;
 width: 960px;
@@ -280,8 +302,7 @@ padding-top: 2em;
 	font-size: 1.2em; /* 24 / 16 */
 	line-height: 1.5em; /* 24 / 24 */
 	text-align: center;
-	padding-left: 8em;
-	padding-right: 8em;
+	opacity: .90;
 }
 
 input {
@@ -314,7 +335,7 @@ border-radius: 100px;
 margin-bottom: 4em;
 margin-left: 0;
 margin-top: 0;
-width: 48%;
+width: 49.5%;
 }
 
 ::-webkit-input-placeholder { /* WebKit browsers */
