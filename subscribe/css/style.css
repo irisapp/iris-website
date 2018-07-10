@@ -124,14 +124,14 @@ margin-left: 1em;
 .footer {
   width: 100%;
   text-align: center;
-  background-color: #f5f5f5;
+  background-color: #F9FBFF;
   padding: 10px 0 1em 0;
   position: absolute;
   bottom: 0px;
 }
 
 .footer a {
-color: #707172;
+color: #4E4E4E;
 font-size: 10px;
 font-weight: 600;
 letter-spacing: .7px;
@@ -253,7 +253,7 @@ margin-left: 10em;
 .footer {
   width: 100%;
   text-align: center;
-  background-color: #f5f5f5;
+  background-color: #F9FBFF;
   padding: 1em 0 1em 0;
   position: absolute;
   bottom: 0px;
@@ -353,7 +353,7 @@ margin-top: 1em;
 font-family: Avenir;
 font-size: 1em;
 text-align: center !important;
-padding: 1.2em;
+padding: 1.1em;
 -webkit-border-radius: 100px;
 -moz-border-radius: 100px;
 border-radius: 100px;
@@ -366,7 +366,7 @@ width: 49.5%;
 .footer {
   width: 100%;
   text-align: center;
-  background-color: #f5f5f5;
+  background-color: #F9FBFF;
   padding: 1em 0 1em 0;
   position: absolute;
   bottom: 0px;
