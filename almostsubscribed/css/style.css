@@ -143,7 +143,7 @@ margin-left: 0;
 font-size: 1.2em; /* 24 / 16 */
 line-height: 1.6em; /* 24 / 24 */
 text-align: left;
-padding-left: 8em;
+padding-left: 9em;
 padding-right: 8em;
 opacity: .90;
 padding-top: 0.1em;
@@ -155,7 +155,6 @@ border-radius: 100px;
 -webkit-border-radius: 100px;
 -moz-border-radius: 100px;
 margin-top: 28px;
-
 margin-bottom: 22em;
 display: inline-block;
 width: 20%;
@@ -191,18 +190,30 @@ margin-left: 2em;
 
 @media (min-width: 1023px) {
 .hero {
-height: 1290px;
+height: 1300px;
 }	
 
 img.logo {
 padding-top: 12em;
 }
 
+.container h1 {
+font-size: 2.6em;
+line-height: 1.2em;
+text-align: center;
+margin-top: 1.5em;
+margin-left: 0;
+}
+
 .container h3 {
-font-size: 1.4em; /* 24 / 16 */
-line-height: 1.4em; /* 24 / 24 */
+font-size: 1.5em; /* 24 / 16 */
+line-height: 1.5em; /* 24 / 24 */
 text-align: left;
-padding-left: 9.8em;
+padding-left: 9em;
+padding-right: 8em;
+opacity: .90;
+padding-top: 0.1em;
+padding-bottom: .5em;
 }
 
 }
@@ -238,8 +249,8 @@ padding-bottom: 0;
 font-size: 1.3em; /* 24 / 16 */
 line-height: 1.4em; /* 24 / 24 */
 text-align: left;
-padding-left: 9em;
-padding-right: 8em;
+padding-left: 11em;
+padding-right: 9em;
 padding-top: .1em;
 opacity: .90;
 }
