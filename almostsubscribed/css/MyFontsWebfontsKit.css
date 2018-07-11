@@ -30,13 +30,42 @@
 
 /* @import must be at top of file, otherwise CSS will not work */
 @import url("//hello.myfonts.net/count/2ef47e");
+@import url("//hello.myfonts.net/count/37100d");
 
   
-@font-face {font-family: 'AvenirLT-Black';src: url('webfonts/2EF47E_0_0.eot');src: url('webfonts/2EF47E_0_0.eot?#iefix') format('embedded-opentype'),url('webfonts/2EF47E_0_0.woff2') format('woff2'),url('webfonts/2EF47E_0_0.woff') format('woff'),url('webfonts/2EF47E_0_0.ttf') format('truetype');}
+@font-face {font-family: 'AvenirLT-Black';src: url('37107E_0_0.eot');src: url('37107E_0_0.eot?#iefix') format('embedded-opentype'),url('37107E_0_0.woff2') format('woff2'),url('37107E_0_0.woff') format('woff'),url('37107E_0_0.ttf') format('truetype');}
  
   
-@font-face {font-family: 'AvenirLTStd-Medium';src: url('webfonts/2EF47E_1_0.eot');src: url('webfonts/2EF47E_1_0.eot?#iefix') format('embedded-opentype'),url('webfonts/2EF47E_1_0.woff2') format('woff2'),url('webfonts/2EF47E_1_0.woff') format('woff'),url('webfonts/2EF47E_1_0.ttf') format('truetype');}
+@font-face {font-family: 'AvenirLTStd-Medium';src: url('37107E_1_0.eot');src: url('webfonts/37107E_1_0.eot?#iefix') format('embedded-opentype'),url('37107E_1_0.woff2') format('woff2'),url('37107E_1_0.woff') format('woff'),url('37107E_1_0.ttf') format('truetype');}
  
   
-@font-face {font-family: 'AvenirLTStd-Book';src: url('webfonts/2EF47E_2_0.eot');src: url('webfonts/2EF47E_2_0.eot?#iefix') format('embedded-opentype'),url('webfonts/2EF47E_2_0.woff2') format('woff2'),url('webfonts/2EF47E_2_0.woff') format('woff'),url('webfonts/2EF47E_2_0.ttf') format('truetype');}
+@font-face {font-family: 'AvenirLTStd-Book';src: url('37107E_2_0.eot');src: url('37107E_2_0.eot?#iefix') format('embedded-opentype'),url('37107E_2_0.woff2') format('woff2'),url('37107E_2_0.woff') format('woff'),url('37107E_2_0.ttf') format('truetype');}
+
+/**
+ * @license
+ * MyFonts Webfont Build ID 3608589, 2018-07-10T12:57:55-0400
+ * 
+ * The fonts listed in this notice are subject to the End User License
+ * Agreement(s) entered into by the website owner. All other parties are 
+ * explicitly restricted from using the Licensed Webfonts(s).
+ * 
+ * You may obtain a valid license at the URLs below.
+ * 
+ * Webfont: AvenirLTStd-Heavy by Linotype
+ * URL: https://www.myfonts.com/fonts/linotype/avenir/pro-85-heavy-115678/
+ * Copyright: Copyright &#x00A9; 1989, 1995, 2002 Adobe Systems Incorporated.  All Rights Reserved. &#x00A9; 1981, 1995, 2002 Heidelberger Druckmaschinen AG. All rights reserved.
+ * Licensed pageviews: 250,000
+ * 
+ * 
+ * License: https://www.myfonts.com/viewlicense?type=web&buildid=3608589
+ * 
+ * © 2018 MyFonts Inc
+*/
+
+
+/* @import must be at top of file, otherwise CSS will not work */
+
+  
+@font-face {font-family: 'AvenirLTStd-Heavy';src: url('37100D_0_0.eot');src: url('37100D_0_0.eot?#iefix') format('embedded-opentype'),url('37100D_0_0.woff2') format('woff2'),url('37100D_0_0.woff') format('woff'),url('37100D_0_0.ttf') format('truetype');}
+ 
  
