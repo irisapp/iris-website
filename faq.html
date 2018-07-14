@@ -33,6 +33,27 @@
 	<link rel="shortcut icon" href="favicon.ico" >
 	<link rel="apple-touch-icon-precomposed" href="apple-touch-icon-precomposed.png" />
 	
+	<!-- for Messenger Chat -->
+	<!-- Load Facebook SDK for JavaScript -->
+	<div id="fb-root"></div>
+	<script>(function(d, s, id) {
+	  var js, fjs = d.getElementsByTagName(s)[0];
+	  if (d.getElementById(id)) return;
+	  js = d.createElement(s); js.id = id;
+	  js.src = 'https://connect.facebook.net/en_US/sdk/xfbml.customerchat.js#xfbml=1&version=v2.12&autoLogAppEvents=1';
+	  fjs.parentNode.insertBefore(js, fjs);
+	}(document, 'script', 'facebook-jssdk'));</script>
+	
+	<!-- Your customer chat code -->
+	<div class="fb-customerchat"
+	  attribution=setup_tool
+	  page_id="744674455643137"
+	  theme_color="#3B64AB"
+	  logged_in_greeting="Oh, hello! Can we help you with anything? Don't hesitate to ask."
+	  logged_out_greeting="Oh, hello! Can we help you with anything? Don't hesitate to ask."
+	  greeting_dialog_display="hide">
+	</div>
+	
 	<title>Iris—Frequently Asked Questions</title>
 </head>
 <body>
