@@ -35,7 +35,8 @@ margin-top: .8em;
 }
 
 .container h3 {
-color: #707172;;
+color: #707172;
+font-family: AvenirLTStd-Book;
 font-size: 1.2em; /* 24 / 16 */
 line-height: 1.5em; /* 24 / 24 */
 text-align: left;

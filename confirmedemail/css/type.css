@@ -1,28 +1,7 @@
-@font-face {
-font-family: entypo;
-src: url('entypo.ttf'),
-     url('entypo.eot'); /* IE9 */
--webkit-font-smoothing: antialiased;
-}
-
-@font-face {
-font-family: entypo-social;
-src: url('entypo-social.ttf'),
-     url('entypo-social.eot'); /* IE9 */
--webkit-font-smoothing: antialiased;
-}
-
-@font-face {
-font-family: Avenir;
-src: url('avenir.ttf')
-     url('avenir.eot'); /* IE9 */
--webkit-font-smoothing: antialiased;
-}
-
 /* Toast Framework - type.css */
 body {
-	font: 400 1.1em/1.5 Avenir, 'Helvetica Neue', Helvetica, Arial, sans-serif;
-	background: #fcfcfc url('../images/altbg.jpg') no-repeat left top;
+	font: 1.1em/1.5 AvenirLTStd-Book, 'Helvetica Neue', Helvetica, Arial, sans-serif;
+	background: #fcfcfc url('../images/hero-shapes.svg') no-repeat left top;
 	-webkit-font-smoothing: antialiased;
 }
 
